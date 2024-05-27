@@ -2,6 +2,7 @@ import { Result, type Command, type OutputFunction } from './Command.js';
 import { CountCommand } from './commands/Count.js';
 import { EchoCommand } from './commands/Echo.js';
 import { ErrorCommand } from './commands/Error.js';
+import { HelpCommand } from './commands/Help.js';
 import { WaitCommand } from './commands/Wait.js';
 import { DiceParser } from './DiceParser.js';
 import { parseCommand, type CommandArgs } from './util.js';
@@ -18,6 +19,7 @@ export class TUI {
 		this.registerCommand(new WaitCommand());
 		this.registerCommand(new CountCommand());
 		this.registerCommand(new ErrorCommand());
+		this.registerCommand(new HelpCommand());
 	}
 
 	registerCommand(command: Command): void {
@@ -55,8 +57,10 @@ export class TUI {
 
 	calc(input: string): string {
 		let result = this.diceParser.parse(input);
-		if (result) {
-			if (this.diceParser.recentRolls.length > 1) {
+		if (this.diceParser.recentRolls.length > 0) {
+			if (
+				!(this.diceParser.recentRolls.length === 1 && this.diceParser.recentRolls[0][1] === result)
+			) {
 				result += `\nRolls: ${this.diceParser.recentRolls.map((x) => x[1] + '/' + x[0]).join(', ')}`;
 			}
 		}
@@ -66,6 +70,9 @@ export class TUI {
 	async runCommand(input: string, output: OutputFunction): Promise<Result | void> {
 		try {
 			let result = this.calc(input);
+			if (typeof result === 'function') {
+				throw new Error('Invalid input.');
+			}
 			output(result.toString());
 			this.addToHistory(input, result.toString() + '\n');
 			return Promise.resolve();
@@ -123,9 +130,9 @@ export class TUI {
 		return Promise.resolve(result);
 	}
 
-	asText(prompt: string = '> '): string {
+	asText(prompt: string = '> '): string[] {
 		// console.log(this.history.map(([input, output]) => `${prompt}${input}\n${output}`).join('\n'));
-		let text = this.history.map(([input, output]) => `${prompt}${input}\n${output}`).join('');
+		let text = this.history.map(([input, output]) => `${prompt}${input}\n${output}\n`);
 		return text;
 	}
 }

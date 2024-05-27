@@ -31,7 +31,10 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@sveltejs/svelte-virtual-list": "^3.0.1",
 		"mathjs": "^12.4.2",
-		"seedrandom": "^3.0.5"
+		"seedrandom": "^3.0.5",
+		"svelte-tiny-virtual-list": "^2.1.0",
+		"svrollbar": "^0.12.0"
 	}
 }

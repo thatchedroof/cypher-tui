@@ -51,7 +51,9 @@ export class DiceParser {
 
 					let total = rolls.reduce((a, b) => a + b, 0);
 
-					self.recentRolls.push([`${count !== 1 ? count : ''}d${sides}`, total]);
+					for (let roll of rolls) {
+						self.recentRolls.push([`d${sides}`, roll]);
+					}
 
 					return total;
 				}
