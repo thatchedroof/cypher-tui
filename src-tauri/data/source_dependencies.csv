@@ -1,0 +1,10 @@
+from_source,to_source
+"CSRD Fantasy","Cypher System Reference Document"
+"CSRD Modern","Cypher System Reference Document"
+"CSRD Science Fiction","Cypher System Reference Document"
+"CSRD Horror","CSRD Modern"
+"CSRD Romance","CSRD Modern"
+"CSRD Superheroes","CSRD Modern"
+"CSRD Post-Apocalyptic","CSRD Science Fiction"
+"CSRD Fairy Tale","Cypher System Reference Document"
+"CSRD Historical","Cypher System Reference Document"

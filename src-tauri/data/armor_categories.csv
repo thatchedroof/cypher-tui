@@ -1,0 +1,4 @@
+source_name,name,default_speed_effort_cost,default_rating
+Cypher System Reference Document,Light,2,1
+Cypher System Reference Document,Medium,3,2
+Cypher System Reference Document,Heavy,4,3

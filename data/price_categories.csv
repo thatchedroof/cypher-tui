@@ -1,0 +1,6 @@
+source_name,name,scale
+Cypher System Reference Document,Inexpensive,1
+Cypher System Reference Document,Moderately priced,10
+Cypher System Reference Document,Expensive,100
+Cypher System Reference Document,Very expensive,1000
+Cypher System Reference Document,Exorbitant,10000

@@ -7,10 +7,14 @@ export class HelpCommand extends Command {
 	}
 
 	async run(args: CommandArgs, output: OutputFunction) {
+		output('');
 		output('Cypher-tui is a text-based user interface for the Cypher roleplaying system.');
-		output(" - Type in an expression like '2 + 2d6 + d20' to get a roll result.");
-		output(" - See the list of available commands by typing 'commands'.");
-		output(" - Get more information about a specific command by typing '<command> --help'.");
+		output('');
+		output('Usage:');
+		output("Type in an expression like '[[[2 + 2d6 + d20]]]' to get a roll result.");
+		output("See the list of available commands by typing '[[[commands]]]'.");
+		output("Get more information about a specific command by typing '<command> --help'.");
+		output('');
 		output('By thatchedroof :)');
 		return Result.Success;
 	}

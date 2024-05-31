@@ -1,0 +1,4 @@
+source_name,name,default_damage,default_attack_difficulty_modifier
+Cypher System Reference Document,Light,2,-1
+Cypher System Reference Document,Medium,4,0
+Cypher System Reference Document,Heavy,6,0

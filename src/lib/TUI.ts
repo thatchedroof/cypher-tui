@@ -1,4 +1,5 @@
 import { Result, type Command, type OutputFunction } from './Command.js';
+import { AbilityCommand } from './commands/Ability.js';
 import { CountCommand } from './commands/Count.js';
 import { EchoCommand } from './commands/Echo.js';
 import { ErrorCommand } from './commands/Error.js';
@@ -20,6 +21,7 @@ export class TUI {
 		this.registerCommand(new CountCommand());
 		this.registerCommand(new ErrorCommand());
 		this.registerCommand(new HelpCommand());
+		this.registerCommand(new AbilityCommand());
 	}
 
 	registerCommand(command: Command): void {
@@ -36,7 +38,7 @@ export class TUI {
 			try {
 				return await command.run(args, output);
 			} catch (e: any) {
-				output(`Error: ${e.message}`);
+				output(`Error: ${e}`);
 				return Result.Failure;
 			}
 		} else {
