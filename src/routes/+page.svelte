@@ -13,6 +13,8 @@
 	let virtualList: VirtualList;
 
 	let input: HTMLSpanElement;
+	let inputText: string = '';
+	let autocomplete: string = '';
 
 	let commandProcessing: boolean = false;
 
@@ -44,7 +46,7 @@
 					text = link.textContent || '';
 				}
 
-				input.textContent = text;
+				inputText = text;
 				inputFocus();
 			});
 		});
@@ -52,9 +54,17 @@
 
 	function inputFocus() {
 		input.focus();
-		let val = input.textContent;
-		input.textContent = '';
-		input.textContent = val;
+
+		try {
+			let range = document.createRange();
+			let sel = window.getSelection();
+
+			range.setStart(input, 1);
+			range.collapse(true);
+
+			sel?.removeAllRanges();
+			sel?.addRange(range);
+		} catch (e) {}
 	}
 
 	const escapeHtml = (unsafe: string) => {
@@ -117,14 +127,36 @@
 		return total;
 	}
 
-	onMount(() => {
+	$: {
+		complete(inputText);
+		console.log('inputText', inputText);
+	}
+
+	async function complete(inp: string) {
+		if (inputText === '') {
+			autocomplete = '';
+			return;
+		}
+
+		autocomplete = '';
+
+		let completedText = await tui.complete(inputText);
+
+		console.log(completedText);
+
+		autocomplete = completedText[0] ?? '';
+	}
+
+	onMount(async () => {
+		await tui.init();
+
 		inputFocus();
 
 		document.addEventListener('keydown', async (event) => {
 			if (event.key === 'Enter') {
 				event.preventDefault();
 
-				let command = input?.textContent || '';
+				let command = inputText || '';
 
 				commandProcessing = true;
 				await tick();
@@ -139,7 +171,7 @@
 
 				historyText = tui.asText();
 
-				input.textContent = '';
+				inputText = '';
 				inputFocus();
 
 				outputText = '';
@@ -147,10 +179,21 @@
 				addLinks();
 			} else if (event.key === 'ArrowUp') {
 				event.preventDefault();
-				// input.textContent = tui.getPreviousCommand();
+				// inputText = tui.getPreviousCommand();
 			} else if (event.key === 'ArrowDown') {
 				event.preventDefault();
-				// input.textContent = tui.getNextCommand();
+				// inputText = tui.getNextCommand();
+			} else if (event.key === 'Tab') {
+				console.log('TAB');
+
+				event.preventDefault();
+				await complete(inputText);
+
+				inputText = inputText + autocomplete;
+				autocomplete = '';
+
+				await tick();
+				inputFocus();
 			}
 		});
 
@@ -175,10 +218,12 @@
 		<Svrollbar {viewport} {contents} margin={{ top: 10, buttom: 10 }} />
 	</div>
 
-	<div class="input-and-output">
+	<div class="input-and-output" on:click={inputFocus}>
 		<div class="input-line">
-			<span class="text">&gt;&nbsp;</span>
-			<span class="text" id="input" bind:this={input} contenteditable></span>
+			<span class="text prevent-select">&gt;&nbsp;</span>
+			<span class="text" id="input" bind:this={input} bind:textContent={inputText} contenteditable
+			></span>
+			<span class="autocomplete text">{autocomplete}</span>
 		</div>
 	</div>
 </div>
@@ -212,6 +257,26 @@
 		background: rgba(20, 20, 20, 0.5);
 
 		backdrop-filter: blur(6px);
+	}
+
+	input {
+		background: none;
+		border: none;
+		color: #10cd00;
+		font-family: 'Fixedsys Excelsior';
+		font-size: 24px;
+		outline: none;
+	}
+
+	.autocomplete {
+		pointer-events: none;
+		opacity: 0.5;
+	}
+
+	.prevent-select {
+		-webkit-user-select: none;
+		-ms-user-select: none;
+		user-select: none;
 	}
 
 	.wrapper {
@@ -291,7 +356,6 @@
 
 	#input {
 		outline: none;
-		flex-grow: 1;
 
 		text-wrap: wrap;
 	}

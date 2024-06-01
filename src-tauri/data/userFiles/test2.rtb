@@ -1,0 +1,10 @@
+{ x = d3 }
+
+---
+x:
+(1) Yes, { absolutely | really }!
+(2) No.
+(3) Maybe.
+---
+
+Rolled { x }.

@@ -12,7 +12,8 @@
 		"format": "prettier --write .",
 		"tauri": "tauri",
 		"tauri:build": "tauri build",
-		"tauri:dev": "tauri dev"
+		"tauri:dev": "tauri dev",
+		"antlr4": "antlr4"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^3.0.0",
@@ -34,6 +35,8 @@
 	"dependencies": {
 		"@sveltejs/svelte-virtual-list": "^3.0.1",
 		"@tauri-apps/api": "^1.5.6",
+		"@types/antlr4": "^4.11.6",
+		"antlr4": "^4.13.1-patch-1",
 		"mathjs": "^12.4.2",
 		"sanitize-html": "^2.13.0",
 		"seedrandom": "^3.0.5",

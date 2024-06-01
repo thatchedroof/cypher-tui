@@ -6,6 +6,8 @@ export class CountCommand extends Command {
 		super('count', 'Counts up to a number, waiting between each.', 'count <number>');
 	}
 
+	init() {}
+
 	async run(args: CommandArgs, output: OutputFunction) {
 		const count = parseInt(args.args[0]);
 		if (isNaN(count)) {
@@ -19,5 +21,9 @@ export class CountCommand extends Command {
 		}
 
 		return Result.Success;
+	}
+
+	async complete() {
+		return [];
 	}
 }
