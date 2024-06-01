@@ -3,8 +3,10 @@ import { AbilityCommand } from './commands/Ability.js';
 import { CountCommand } from './commands/Count.js';
 import { EchoCommand } from './commands/Echo.js';
 import { ErrorCommand } from './commands/Error.js';
+import { FlavorCommand } from './commands/Flavor.js';
 import { HelpCommand } from './commands/Help.js';
 import { RunCommand } from './commands/Run.js';
+import { TypeCommand } from './commands/Type.js';
 import { WaitCommand } from './commands/Wait.js';
 import { DiceParser } from './DiceParser.js';
 import { FileSystem } from './FileSystem.js';
@@ -29,6 +31,8 @@ export class TUI {
 		// this.registerCommand(new ErrorCommand());
 		this.registerCommand(new HelpCommand());
 		this.registerCommand(new AbilityCommand());
+		this.registerCommand(new TypeCommand());
+		this.registerCommand(new FlavorCommand());
 		this.registerCommand(new RunCommand());
 	}
 
@@ -106,7 +110,6 @@ export class TUI {
 		};
 
 		if (command.command.trim() === '') {
-			this.addToHistory(input, '');
 			return Promise.resolve();
 		} else if (command.command.trim() === 'clear') {
 			this.history = [];
@@ -151,7 +154,7 @@ export class TUI {
 		return text;
 	}
 
-	async complete(input: string): Promise<string[]> {
+	async complete(input: string): Promise<string[] | [string, string][]> {
 		let command = parseCommand(input, false); // TODO: Should be true
 		if (command.command.trim() === '') {
 			return [];

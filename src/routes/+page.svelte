@@ -4,6 +4,7 @@
 	import { Svrollbar } from 'svrollbar';
 	import VirtualList from 'svelte-tiny-virtual-list';
 	import sanitizeHtml from 'sanitize-html';
+	import { e } from 'mathjs';
 
 	let tui = new TUI();
 	// console.log(prevText);
@@ -15,6 +16,7 @@
 	let input: HTMLSpanElement;
 	let inputText: string = '';
 	let autocomplete: string = '';
+	let backcomplete: string = '';
 
 	let commandProcessing: boolean = false;
 
@@ -53,9 +55,8 @@
 	}
 
 	function inputFocus() {
-		input.focus();
-
 		try {
+			input?.focus();
 			let range = document.createRange();
 			let sel = window.getSelection();
 
@@ -79,10 +80,11 @@
 	function show(text: string) {
 		text = escapeHtml(text);
 		text = text.replaceAll(/\[\[\[([^|\]]*?)\]\]\]/g, '<span class="cmd-button">$1</span>');
-		text = text.replaceAll(
-			/\[\[\[(.*?)\|(.*?)\]\]\]/g,
-			'<span class="cmd-button" data-cmd="$2">$1</span>'
-		);
+
+		text = text.replaceAll(/\[\[\[(.*?)\|(.*?)\]\]\]/g, (substring: string, p1: any, p2: any) => {
+			let x = p2.replaceAll('{}', p1);
+			return `<span class="cmd-button" data-cmd="${x}">${p1}</span>`;
+		});
 		text = sanitizeHtml(text, sanitizeOptions);
 		return text;
 	}
@@ -133,18 +135,24 @@
 	}
 
 	async function complete(inp: string) {
+		autocomplete = '';
+		backcomplete = '';
+
 		if (inputText === '') {
-			autocomplete = '';
 			return;
 		}
 
-		autocomplete = '';
+		let completedResult = (await tui.complete(inputText))[0];
 
-		let completedText = await tui.complete(inputText);
+		console.log('completedResult', await tui.complete(inputText));
 
-		console.log(completedText);
-
-		autocomplete = completedText[0] ?? '';
+		if (Array.isArray(completedResult)) {
+			autocomplete = completedResult[1] ?? '';
+			backcomplete = completedResult[0] ?? '';
+		} else if (typeof completedResult === 'string') {
+			autocomplete = completedResult ?? '';
+			backcomplete = '';
+		}
 	}
 
 	onMount(async () => {
@@ -153,6 +161,10 @@
 		inputFocus();
 
 		document.addEventListener('keydown', async (event) => {
+			if (document.activeElement !== input) {
+				inputFocus();
+			}
+
 			if (event.key === 'Enter') {
 				event.preventDefault();
 
@@ -189,8 +201,15 @@
 				event.preventDefault();
 				await complete(inputText);
 
+				if (backcomplete !== '') {
+					inputText = inputText.slice(0, -backcomplete.length);
+					inputText = inputText + backcomplete;
+				}
+
 				inputText = inputText + autocomplete;
 				autocomplete = '';
+
+				console.log('inputText', inputText, 'end');
 
 				await tick();
 				inputFocus();
@@ -209,7 +228,7 @@
 			<div bind:this={contents} class="contents">
 				{#each historyText as htext}
 					<div class="item">
-						<div class="text">{@html show(htext)}</div>
+						<div class="text history">{@html show(htext)}</div>
 					</div>
 				{/each}
 				<div id="output" class="output text">{@html show(outputText)}</div>
@@ -221,8 +240,14 @@
 	<div class="input-and-output" on:click={inputFocus}>
 		<div class="input-line">
 			<span class="text prevent-select">&gt;&nbsp;</span>
-			<span class="text" id="input" bind:this={input} bind:textContent={inputText} contenteditable
-			></span>
+			<span
+				class="text"
+				id="input"
+				bind:this={input}
+				on:click={(e) => e.stopPropagation()}
+				bind:textContent={inputText}
+				contenteditable
+			/>
 			<span class="autocomplete text">{autocomplete}</span>
 		</div>
 	</div>
@@ -241,6 +266,10 @@
 		text-decoration-thickness: 0.05em;
 		text-underline-offset: 0.1em;
 		cursor: pointer;
+	}
+
+	.history {
+		white-space: pre;
 	}
 
 	.input-and-output {

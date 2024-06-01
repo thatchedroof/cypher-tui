@@ -9,7 +9,11 @@ export class AbilityCommand extends Command {
 	abilities: any = {};
 
 	constructor() {
-		super('ability', 'Searches for an ability in the database.', 'ability <ability>');
+		super(
+			'ability',
+			'Searches for an ability in the database. Type a search term to see a list of matches.',
+			'ability <ability>'
+		);
 	}
 
 	async init() {
@@ -47,7 +51,7 @@ export class AbilityCommand extends Command {
 			} else {
 				output('');
 				output(
-					`Ability not found. Did you mean one of these?\n${matches.map(([k, a]) => `[[[${k}|ability ${k}]]]`).join('\n')}`
+					`Ability not found. Did you mean one of these?\n\n${matches.map(([k, a]) => `[[[${k}|ability {}]]]`).join('\n')}`
 				);
 				return Result.Failure;
 			}
@@ -65,6 +69,8 @@ export class AbilityCommand extends Command {
 
 		const matches = abilities.filter((a) => a.toLowerCase().startsWith(ability.toLowerCase()));
 
-		return matches.map((m) => m.slice(ability.length));
+		return matches.map(
+			(m) => [m.slice(0, ability.length), m.slice(ability.length)] as [string, string]
+		);
 	}
 }

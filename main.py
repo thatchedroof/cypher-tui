@@ -33,3 +33,57 @@ with open("abilities.json", "w", encoding="utf-8") as f:
     json.dump(out, f, indent=4)
 
 # %%
+
+import os
+import json
+import re
+
+
+def process_simple(file):
+
+    with open(file + ".txt", "r", encoding="utf-8") as f:
+        lines = f.read().split("\n")
+
+    numdict = {
+        "First": 1,
+        "Second": 2,
+        "Third": 3,
+        "Fourth": 4,
+        "Fifth": 5,
+        "Sixth": 6,
+    }
+
+    out = {}
+
+    for line in lines:
+        if (
+            line.startswith("First-Tier")
+            or line.startswith("Second-Tier")
+            or line.startswith("Third-Tier")
+            or line.startswith("Fourth-Tier")
+            or line.startswith("Fifth-Tier")
+            or line.startswith("Sixth-Tier")
+        ):
+            tier = line.split(" ")[0]
+            name = line.split(" ")[1]
+            tier = numdict[tier.split("-")[0]]
+
+            if name not in out:
+                out[name] = {}
+
+            out[name][tier] = line
+
+        else:
+            out[name][tier] += line + "\n"
+
+    with open(file + ".json", "w", encoding="utf-8") as f:
+        json.dump(
+            {k: {kk: vv.strip() for kk, vv in v.items()} for k, v in out.items()},
+            f,
+            indent=4,
+        )
+
+
+process_simple("types")
+process_simple("flavors")
+# %%

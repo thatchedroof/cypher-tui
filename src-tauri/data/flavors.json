@@ -1,0 +1,42 @@
+{
+    "stealth": {
+        "1": "First-Tier Stealth Abilities\n\n  * [[[Danger Sense|ability {}]]]\n\n  * [[[Goad|ability {}]]]\n\n  * [[[Legerdemain|ability {}]]]\n\n  * [[[Opportunist|ability {}]]]\n\n  * [[[Stealth Skills|ability {}]]]",
+        "2": "Second-Tier Stealth Abilities\n\n  * [[[Contortionist|ability {}]]]\n\n  * [[[Find an Opening|ability {}]]]\n\n  * [[[Get Away|ability {}]]]\n\n  * [[[Sense Ambush|ability {}]]]\n\n  * [[[Surprise Attack|ability {}]]]",
+        "3": "Third-Tier Stealth Abilities\n\n  * [[[Evanesce|ability {}]]]\n\n  * [[[From the Shadows|ability {}]]]\n\n  * [[[Gambler|ability {}]]]\n\n  * [[[Inner Defense|ability {}]]]\n\n  * [[[Misdirect|ability {}]]]\n\n  * [[[Run and Fight|ability {}]]]\n\n  * [[[Seize the Moment|ability {}]]]",
+        "4": "Fourth-Tier Stealth Abilities\n\n  * [[[Ambusher|ability {}]]]\n\n  * [[[Debilitating Strike|ability {}]]]\n\n  * [[[Outwit|ability {}]]]\n\n  * [[[Preternatural Senses|ability {}]]]\n\n  * [[[Tumbling Moves|ability {}]]]",
+        "5": "Fifth-Tier Stealth Abilities\n\n  * [[[Assassin Strike|ability {}]]]\n\n  * [[[Mask|ability {}]]]\n\n  * [[[Return to Sender|ability {}]]]\n\n  * [[[Uncanny Luck|ability {}]]]",
+        "6": "Sixth-Tier Stealth Abilities\n\n  * [[[Exploit Advantage|ability {}]]]\n\n  * [[[Spring Away|ability {}]]]\n\n  * [[[Thief\u2019s Luck|ability {}]]]\n\n  * [[[Twist of Fate|ability {}]]]"
+    },
+    "technology": {
+        "1": "First-Tier Technology Abilities\n\n  * [[[Datajack|ability {}]]]\n\n  * [[[Hacker|ability {}]]]\n\n  * [[[Machine Interface|ability {}]]]\n\n  * [[[Scramble Machine|ability {}]]]\n\n  * [[[Tech Skills|ability {}]]]\n\n  * [[[Tinker|ability {}]]]",
+        "2": "Second-Tier Technology Abilities\n\n  * [[[Distant Interface|ability {}]]]\n\n  * [[[Machine Efficiency|ability {}]]]\n\n  * [[[Overload Machine|ability {}]]]\n\n  * [[[Serv-0|ability {}]]]\n\n  * [[[Serv-0 Defender|ability {}]]]\n\n  * [[[Serv-0 Repair|ability {}]]]\n\n  * [[[Tool Mastery|ability {}]]]",
+        "3": "Third-Tier Technology Abilities\n\n  * [[[Mechanical Telepathy|ability {}]]]\n\n  * [[[Serv-0 Scanner|ability {}]]]\n\n  * [[[Ship Footing|ability {}]]]\n\n  * [[[Shipspeak|ability {}]]]\n\n  * [[[Spray|ability {}]]]",
+        "4": "Fourth-Tier Technology Abilities\n\n  * [[[Machine Bond|ability {}]]]\n\n  * [[[Robot Fighter|ability {}]]]\n\n  * [[[Serv-0 Aim|ability {}]]]\n\n  * [[[Serv-0 Brawler|ability {}]]]\n\n  * [[[Serv-0 Spy|ability {}]]]",
+        "5": "Fifth-Tier Technology Abilities\n\n  * [[[Control Machine|ability {}]]]\n\n  * [[[Jury-Rig|ability {}]]]\n\n  * [[[Machine Companion|ability {}]]]",
+        "6": "Sixth-Tier Technology Abilities\n\n  * [[[Information Gathering|ability {}]]]\n\n  * [[[Master Machine|ability {}]]]"
+    },
+    "magic": {
+        "1": "First-Tier Magic Abilities\n\n  * [[[Blessing of the Gods|ability {}]]]\n\n  * [[[Closed Mind|ability {}]]]\n\n  * [[[Entangling Force|ability {}]]]\n\n  * [[[Hedge Magic|ability {}]]]\n\n  * [[[Magic Training|ability {}]]]\n\n  * [[[Mental Link|ability {}]]]\n\n  * [[[Premonition|ability {}]]]",
+        "2": "Second-Tier Magic Abilities\n\n  * [[[Concussive Blast|ability {}]]]\n\n  * [[[Fetch|ability {}]]]\n\n  * [[[Force Field|ability {}]]]\n\n  * [[[Lock|ability {}]]]\n\n  * [[[Repair Flesh|ability {}]]]",
+        "3": "Third-Tier Magic Abilities\n\n  * [[[Distance Viewing|ability {}]]]\n\n  * [[[Fire Bloom|ability {}]]]\n\n  * [[[Fling|ability {}]]]\n\n  * [[[Force at Distance|ability {}]]]\n\n  * [[[Summon Giant Spider|ability {}]]]",
+        "4": "Fourth-Tier Magic Abilities\n\n  * [[[Elemental Protection|ability {}]]]\n\n  * [[[Ignition|ability {}]]]\n\n  * [[[Pry Open|ability {}]]]",
+        "5": "Fifth-Tier Magic Abilities\n\n  * [[[Create|ability {}]]]\n\n  * [[[Divine Intervention|ability {}]]]\n\n  * [[[Dragon\u2019s Maw|ability {}]]]\n\n  * [[[Fast Travel|ability {}]]]\n\n  * [[[True Senses|ability {}]]]",
+        "6": "Sixth-Tier Magic Abilities\n\n  * [[[Relocate|ability {}]]]\n\n  * [[[Summon Demon|ability {}]]]\n\n  * [[[Traverse the Worlds|ability {}]]]\n\n  * [[[Word of Death|ability {}]]]"
+    },
+    "combat": {
+        "1": "First-Tier Combat Abilities\n\n  * [[[Danger Sense|ability {}]]]\n\n  * [[[Practiced in Armor|ability {}]]]\n\n  * [[[Practiced With Medium Weapons|ability {}]]]",
+        "2": "Second-Tier Combat Abilities\n\n  * [[[Bloodlust|ability {}]]]\n\n  * [[[Combat Prowess|ability {}]]]\n\n  * [[[Trained Without Armor|ability {}]]]",
+        "3": "Third-Tier Combat Abilities\n\n  * [[[Practiced With All Weapons|ability {}]]]\n\n  * [[[Skill With Attacks|ability {}]]]\n\n  * [[[Skill With Defense|ability {}]]]\n\n  * [[[Successive Attack|ability {}]]]",
+        "4": "Fourth-Tier Combat Abilities\n\n  * [[[Capable Warrior|ability {}]]]\n\n  * [[[Deadly Aim|ability {}]]]\n\n  * [[[Fury|ability {}]]]\n\n  * [[[Misdirect|ability {}]]]\n\n  * [[[Spray|ability {}]]]",
+        "5": "Fifth-Tier Combat Abilities\n\n  * [[[Experienced Defender|ability {}]]]\n\n  * [[[Hard Target|ability {}]]]\n\n  * [[[Parry|ability {}]]]",
+        "6": "Sixth-Tier Combat Abilities\n\n  * [[[Greater Skill With Attacks|ability {}]]]\n\n  * [[[Mastery in Armor|ability {}]]]\n\n  * [[[Mastery With Defense|ability {}]]]"
+    },
+    "skills": {
+        "1": "First-Tier Skills and Knowledge Abilities\n\n  * [[[Interaction Skills|ability {}]]]\n\n  * [[[Investigative Skills|ability {}]]]\n\n  * [[[Knowledge Skills|ability {}]]]\n\n  * [[[Physical Skills|ability {}]]]\n\n  * [[[Travel Skills|ability {}]]]",
+        "2": "Second-Tier Skills and Knowledge Abilities\n\n  * [[[Extra Skill|ability {}]]]\n\n  * [[[Tool Mastery|ability {}]]]\n\n  * [[[Understanding|ability {}]]]",
+        "3": "Third-Tier Skills and Knowledge Abilities\n\n  * [[[Flex Skill|ability {}]]]\n\n  * [[[Improvise|ability {}]]]",
+        "4": "Fourth-Tier Skills and Knowledge Abilities\n\n  * [[[Multiple Skills|ability {}]]]\n\n  * [[[Quick Wits|ability {}]]]\n\n  * [[[Task Specialization|ability {}]]]",
+        "5": "Fifth-Tier Skills and Knowledge Abilities\n\n  * [[[Practiced With Medium Weapons|ability {}]]]\n\n  * [[[Read the Signs|ability {}]]]",
+        "6": "Sixth-Tier Skills and Knowledge Abilities\n\n  * [[[Skill With Attacks|ability {}]]]\n\n  * [[[Skill With Defense|ability {}]]]"
+    }
+}

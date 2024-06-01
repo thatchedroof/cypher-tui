@@ -25,7 +25,10 @@ export abstract class Command {
 		tableParser: CustomVisitor
 	): Promise<Result | void>;
 
-	abstract complete(incompleteArgs: CommandArgs, fileSystem: FileSystem): Promise<string[]>;
+	abstract complete(
+		incompleteArgs: CommandArgs,
+		fileSystem: FileSystem
+	): Promise<string[] | [string, string][]>;
 }
 
 export type OutputFunction = (output: string, newline?: boolean) => void;
