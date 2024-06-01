@@ -1,0 +1,1543 @@
+
+# Abides in Stone
+
+Your flesh is made of hard mineral, making you a hulking, difficult-to-harm humanoid.
+
+    Tier 1: [[[Golem Body|ability {}]]]
+    Tier 1: [[[Golem Healing|ability {}]]]
+    Tier 2: [[[Golem Grip|ability {}]]]
+    Tier 3: [[[Trained Basher|ability {}]]]
+    Tier 3: [[[Golem Stomp|ability {}]]] or [[[Weaponization|ability {}]]]
+    Tier 4: [[[Deep Reserves|ability {}]]]
+    Tier 5: [[[Specialized Basher|ability {}]]]
+    Tier 5: [[[Still As a Statue|ability {}]]]
+    Tier 6: [[[Ultra Enhancement|ability {}]]] or [[[Mind Surge|ability {}]]]
+
+GM Intrusions: Creatures of stone sometimes forget their own strength or weight. A walking statue can terrify common folk.
+
+# Absorbs Energy
+
+You can harness kinetic energy and transform it into other kinds of energy.
+
+    Tier 1: [[[Absorb Kinetic Energy|ability {}]]]
+    Tier 1: [[[Release Energy|ability {}]]]
+    Tier 2: [[[Energize Object|ability {}]]]
+    Tier 3: [[[Absorb Pure Energy|ability {}]]] or [[[Improved Absorb Kinetic Energy|ability {}]]]
+    Tier 4: [[[Overcharge Energy|ability {}]]]
+    Tier 5: [[[Energize Creature|ability {}]]]
+    Tier 6: [[[Energize Crowd|ability {}]]] or [[[Overcharge Device|ability {}]]]
+
+GM Intrusions: Energy goes to ground in a destructive way. Some predators feed directly on energy. An unintended item is drained of energy.
+
+# Awakens Dreams
+
+You can pull images from dreams and bring them to life in the waking world.
+
+    Tier 1: [[[Dreamcraft|ability {}]]]
+    Tier 1: [[[Oneirochemy|ability {}]]]
+    Tier 2: [[[Dream Thief|ability {}]]]
+    Tier 3: [[[Dream Becomes Reality|ability {}]]] or [[[Enhanced Intellect|ability {}]]]
+    Tier 4: [[[Daydream|ability {}]]]
+    Tier 5: [[[Nightmare|ability {}]]]
+    Tier 6: [[[Chamber of Dreams|ability {}]]] or [[[Reactive Field|ability {}]]]
+
+GM Intrusions: An unexpected sleepwalking episode puts the character into a dangerous situation. A nightmare breaks free of a dream.
+
+# Battles Robots
+
+You excel in battling robots, automatons, and machine entities.
+
+    Tier 1: [[[Machine Vulnerabilities|ability {}]]]
+    Tier 1: [[[Tech Skills|ability {}]]]
+    Tier 2: [[[Defense Against Robots|ability {}]]]
+    Tier 2: [[[Machine Hunting|ability {}]]]
+    Tier 3: [[[Disable Mechanisms|ability {}]]] or [[[Surprise Attack|ability {}]]]
+    Tier 4: [[[Robot Fighter|ability {}]]]
+    Tier 5: [[[Drain Power|ability {}]]]
+    Tier 6: [[[Deactivate Mechanisms|ability {}]]] or [[[Lethal Damage|ability {}]]]
+
+GM Intrusions: The robot explodes upon defeat. Other robots come after the character for revenge.
+
+# Bears a Halo of Fire
+
+You can sheath your body in flames, which protects you and harms your foes.
+
+    Tier 1: [[[Shroud of Flame|ability {}]]]
+    Tier 2: [[[Hurl Flame|ability {}]]]
+    Tier 3: [[[Wings of Fire|ability {}]]] or [[[Fiery Hand of Doom|ability {}]]]
+    Tier 4: [[[Flameblade|ability {}]]]
+    Tier 5: [[[Fire Tendrils|ability {}]]]
+    Tier 6: [[[Fire Servant|ability {}]]] or [[[Inferno Trail|ability {}]]]
+
+GM Intrusions: Fire burns flammable material. Fire spreads out of control. Primitive creatures fear fire and often attack what they fear.
+
+# Blazes With Radiance
+
+You can create light, sculpt it, bend it away from you, or gather it to use as a weapon.
+
+    Tier 1: [[[Enlightened|ability {}]]]
+    Tier 1: [[[Illuminating Touch|ability {}]]]
+    Tier 2: [[[Dazzling Sunburst|ability {}]]]
+    Tier 3: [[[Burning Light|ability {}]]] or [[[Skill With Defense|ability {}]]]
+    Tier 4: [[[Sunlight|ability {}]]]
+    Tier 5: [[[Disappear|ability {}]]]
+    Tier 6: [[[Living Light|ability {}]]] or [[[Defensive Field|ability {}]]]
+
+GM Intrusions: Allies are accidentally dazzled or blinded. Bright flashes draw guards.
+
+# Brandishes an Exotic Shield
+
+You deploy an amazing shield of pure force that provides protection and some offensive options.
+
+    Tier 1: [[[Force Field Shield|ability {}]]]
+    Tier 1: [[[Force Bash|ability {}]]]
+    Tier 2: [[[Enveloping Shield|ability {}]]]
+    Tier 3: [[[Healing Pulse|ability {}]]] or [[[Throw Force Shield|ability {}]]]
+    Tier 4: [[[Energized Shield|ability {}]]]
+    Tier 5: [[[Force Wall|ability {}]]]
+    Tier 6: [[[Bouncing Shield|ability {}]]] or [[[Shield Burst|ability {}]]]
+
+GM Intrusions: The shield is temporarily lost. A foe temporarily ends up with the shield.
+
+# Builds Robots
+
+Your robotic creations do as they are commanded.
+
+    The word “robot” is used in this focus, though the robot you create might look very different from one created by someone else, depending on the genre. Steampunk robots, organic robots, or even magical golems are all feasible “robots.”
+
+    Tier 1: [[[Robot Assistant|ability {}]]]
+    Tier 1: [[[Robot Builder|ability {}]]]
+    Tier 2: [[[Robot Control|ability {}]]]
+    Tier 3: [[[Expert Follower|ability {}]]] or [[[Skill With Defense|ability {}]]]
+    Tier 4: [[[Robot Upgrade|ability {}]]]
+    Tier 5: [[[Robot Fleet|ability {}]]]
+    Tier 6: [[[Robot Evolution|ability {}]]] or [[[Robot Upgrade|ability {}]]]
+
+GM Intrusions: The robot is hacked, gains a mind of its own, or unexpectedly detonates.
+
+# Calculates the Incalculable
+
+Awesome mathematical ability allows you to model the world in real time, giving you an edge over everyone.
+
+    Tier 1: [[[Predictive Equation|ability {}]]]
+    Tier 1: [[[Higher Mathematics|ability {}]]]
+    Tier 2: [[[Predictive Model|ability {}]]]
+    Tier 3: [[[Subconscious Defense|ability {}]]] or [[[Enhanced Intellect|ability {}]]]
+    Tier 4: [[[Cognizant Offense|ability {}]]]
+    Tier 5: [[[Greater Enhanced Intellect|ability {}]]]
+    Tier 5: [[[Further Mathematics|ability {}]]]
+    Tier 6: [[[Knowing the Unknown|ability {}]]] or [[[Greater Enhanced Intellect|ability {}]]]
+
+GM Intrusions: Too many predicted results threaten to overwhelm and stun the character. A result points to imminent disaster.
+
+# Channels Divine Blessings
+
+A devout follower of a divine being, you channel some of your deity’s power to achieve wonders.
+
+    Tier 1: [[[Blessing of the Gods|ability {}]]]
+    Tier 2: [[[Enhanced Intellect|ability {}]]]
+    Tier 3: [[[Divine Radiance|ability {}]]] or [[[Fire Bloom|ability {}]]]
+    Tier 4: [[[Overawe|ability {}]]]
+    Tier 5: [[[Divine Intervention|ability {}]]]
+    Tier 6: [[[Divine Symbol|ability {}]]] or [[[Summon Demon|ability {}]]]
+
+GM Intrusions: A demon investigates divine magic use. A rival cult has issues with the character’s teachings.
+
+# Commands Mental Powers
+
+You have honed the power of your mind to perform amazing psychic deeds.
+
+    Tier 1: [[[Telepathic|ability {}]]]
+    Tier 2: [[[Mind Reading|ability {}]]]
+    Tier 3: [[[Psychic Burst|ability {}]]] or [[[Psychic Suggestion|ability {}]]]
+    Tier 4: [[[Use Senses of Others|ability {}]]]
+    Tier 5: [[[Precognition|ability {}]]]
+    Tier 6: [[[Mind Control|ability {}]]] or [[[Telepathic Network|ability {}]]]
+
+GM Intrusions: Something glimpsed in the target’s mind is horrifying. A feedback loop allows the target to read the character’s mind.
+
+# Conducts Weird Science
+
+Your preternatural insight and ability make you a scientist capable of amazing feats.
+
+    Tier 1: [[[Lab Analysis|ability {}]]]
+    Tier 1: [[[Knowledge Skills|ability {}]]]
+    Tier 2: [[[Modify Device|ability {}]]]
+    Tier 3: [[[Better Living Through Chemistry|ability {}]]] or [[[Incredible Health|ability {}]]]
+    Tier 4: [[[Knowledge Skills|ability {}]]]
+    Tier 4: [[[Just a Bit Mad|ability {}]]]
+    Tier 5: [[[Weird Science Breakthrough|ability {}]]]
+    Tier 6: [[[Incredible Feat of Science|ability {}]]]
+    Tier 6: [[[Inventor|ability {}]]] or [[[Defensive Field|ability {}]]]
+
+GM Intrusions: Creations get out of control. Side effects cannot always be predicted. Weird science terrifies people and can draw the media. When a device created or modified by weird science is depleted, it detonates.
+
+# Consorts With the Dead
+
+The dead answer your questions, and their reanimated corpses serve you.
+
+    Tier 1: [[[Speaker for the Dead|ability {}]]]
+    Tier 2: [[[Necromancy|ability {}]]]
+    Tier 3: [[[Reading the Room|ability {}]]] or [[[Repair Flesh|ability {}]]]
+    Tier 4: [[[Greater Necromancy|ability {}]]]
+    Tier 5: [[[Terrifying Gaze|ability {}]]]
+    Tier 6: [[[True Necromancy|ability {}]]] or [[[Word of Death|ability {}]]]
+
+GM Intrusions: The character’s necromantic reputation precedes them. A corpse seeks revenge for being reanimated.
+
+# Controls Beasts
+
+Your ability to communicate and lead beasts is uncanny.
+
+    Tier 1: [[[Beast Companion|ability {}]]]
+    Tier 2: [[[Soothe the Savage|ability {}]]]
+    Tier 2: [[[Communication|ability {}]]]
+    Tier 3: [[[Mount|ability {}]]] or [[[Stronger Together|ability {}]]]
+    Tier 4: [[[Beast Eyes|ability {}]]]
+    Tier 4: [[[Improved Companion|ability {}]]]
+    Tier 5: [[[Beast Call|ability {}]]]
+    Tier 6: [[[As If One Creature|ability {}]]] or [[[Control the Savage|ability {}]]]
+
+GM Intrusions: The community is reluctant to welcome dangerous animals. Out-of-control beasts become a real hazard.
+
+# Controls Gravity
+
+You can sway the attraction of gravity itself.
+
+Type Swap Option: Weighty
+
+    Tier 1: [[[Hover|ability {}]]]
+    Tier 2: [[[Enhanced Speed Edge|ability {}]]]
+    Tier 3: [[[Define Down|ability {}]]] or [[[Gravity Cleave|ability {}]]]
+    Tier 4: [[[Field of Gravity|ability {}]]]
+    Tier 5: [[[Flight|ability {}]]]
+    Tier 6: [[[Improved Gravity Cleave|ability {}]]] or [[[Weight of the World|ability {}]]]
+
+GM Intrusions: Onlookers react with unreasoning fear. A weird interaction sends an ally or object careening into the sky.
+
+# Copies Superpowers
+
+You can copy others’ skills, abilities, and superpowers.
+
+    Tier 1: [[[Flex Skill|ability {}]]]
+    Tier 1: [[[Flex Skill|ability {}]]]
+    Tier 2: [[[Copy Power|ability {}]]]
+    Tier 3: [[[Steal Power|ability {}]]] or [[[Wildcard Powers|ability {}]]]
+    Tier 4: [[[Improved Copying|ability {}]]]
+    Tier 5: [[[Power Memory|ability {}]]]
+    Tier 6: [[[Amazing Copying|ability {}]]] or [[[Multiple|ability {}]]]
+
+Copying GM Intrusions: A copied power ends unexpectedly or goes out of control. A copied power doesn’t bring secondary powers with it (like gaining superspeed without protection from air friction, or not being immune to the heat from your own fire bolts).
+
+# Crafts Illusions
+
+You fashion images from light that are so perfect they seem real.
+
+    Tier 1: [[[Minor Illusion|ability {}]]]
+    Tier 2: [[[Illusory Disguise|ability {}]]]
+    Tier 3: [[[Cast Illusion|ability {}]]] or [[[Major Illusion|ability {}]]]
+    Tier 4: [[[Illusory Selves|ability {}]]]
+    Tier 5: [[[Terrifying Image|ability {}]]]
+    Tier 6: [[[Grandiose Illusion|ability {}]]] or [[[Permanent Illusion|ability {}]]]
+
+GM Intrusions: The illusion isn’t believable. The illusion is pierced at just the wrong moment.
+
+# Crafts Unique Objects
+
+You’re an inventor of strange and useful objects.
+
+    Tier 1: [[[Crafter|ability {}]]]
+    Tier 1: [[[Master Identifier|ability {}]]]
+    Tier 2: [[[Artifact Tinkerer|ability {}]]]
+    Tier 2: [[[Quick Work|ability {}]]]
+    Tier 3: [[[Master Crafter|ability {}]]] or [[[Built-In Weaponry|ability {}]]]
+    Tier 4: [[[Cyphersmith|ability {}]]]
+    Tier 5: [[[Innovator|ability {}]]]
+    Tier 6: [[[Inventor|ability {}]]] or [[[Fusion Armor|ability {}]]]
+
+GM Intrusions: The object malfunctions, breaks, or suffers catastrophic or unexpected failure.
+
+    Cyphersmith works only in a setting where the cyphers are physical objects. If this isn’t the case, this ability should probably be replaced with something akin to Weird Science Breakthrough from the Conducts Weird Science focus.
+
+
+# Dances With Dark Matter
+
+You can manipulate shadow and “dark” matter.
+
+    Tier 1: [[[Ribbons of Dark Matter|ability {}]]]
+    Tier 2: [[[Void Wings|ability {}]]]
+    Tier 3: [[[Dark Matter Shroud|ability {}]]] or [[[Dark Matter Strike|ability {}]]]
+    Tier 4: [[[Dark Matter Shell|ability {}]]]
+    Tier 5: [[[Windwracked Traveler|ability {}]]]
+    Tier 6: [[[Dark Matter Structure|ability {}]]] or [[[Embrace the Night|ability {}]]]
+
+GM Intrusions: Dark matter skulks away as if possessed by a mind of its own.
+
+# Defends the Gate
+
+Everyone wants you on their side when it comes to a fight because nothing gets by you.
+
+    Tier 1: [[[Fortified Position|ability {}]]]
+    Tier 1: [[[Rally to Me|ability {}]]]
+    Tier 2: [[[Mind for Might|ability {}]]]
+    Tier 3: [[[Fortification Builder|ability {}]]] or [[[Divert Attacks|ability {}]]]
+    Tier 4: [[[Greater Enhanced Might|ability {}]]]
+    Tier 5: [[[Reinforcing Field|ability {}]]]
+    Tier 6: [[[Generate Force Field|ability {}]]] or [[[Stun Attack|ability {}]]]
+
+GM Intrusions: A strategically important structure collapses. The enemy attacks from an unexpected direction.
+
+# Defends the Weak
+
+You stand up for the helpless, the weak, and the unprotected.
+
+    Tier 1: [[[Courageous|ability {}]]]
+    Tier 1: [[[Warding Shield|ability {}]]]
+    Tier 2: [[[Devoted Defender|ability {}]]]
+    Tier 2: [[[Insight|ability {}]]]
+    Tier 3: [[[Dual Wards|ability {}]]] or [[[True Guardian|ability {}]]]
+    Tier 4: [[[Combat Challenge|ability {}]]]
+    Tier 5: [[[Willing Sacrifice|ability {}]]]
+    Tier 6: [[[Resuscitate|ability {}]]] or [[[True Defender|ability {}]]]
+
+GM Intrusions: A character focused on protecting others may periodically leave themselves vulnerable to attacks.
+
+# Descends From Nobility
+
+A descendent of wealth and power, you carry a noble title and the abilities granted by a privileged upbringing.
+
+Type Swap Option: Retinue
+
+    Tier 1: [[[Privileged Nobility|ability {}]]]
+    Tier 2: [[[Trained Interlocutor|ability {}]]]
+    Tier 3: [[[Advanced Command|ability {}]]] or [[[Noble’s Courage|ability {}]]]
+    Tier 4: [[[Expert Follower|ability {}]]]
+    Tier 5: [[[Asserting Your Privilege|ability {}]]]
+    Tier 6: [[[Able Assistance|ability {}]]] or [[[Mind of a Leader|ability {}]]]
+
+GM Intrusions: Debts incurred by a family are owed by the character. A long-lost sibling seeks to disinherit rivals. An assassin finds the character.
+
+# Doesn’t Do Much
+
+You’re a slacker, but you know a little about a lot of things.
+
+    Tier 1: [[[Life Lessons|ability {}]]]
+    Tier 2: [[[Totally Chill|ability {}]]]
+    Tier 3: [[[Skill With Attacks|ability {}]]] or [[[Improvise|ability {}]]]
+    Tier 4: [[[Life Lessons|ability {}]]]
+    Tier 4: [[[Greater Skill With Defense|ability {}]]]
+    Tier 5: [[[Greater Enhanced Potential|ability {}]]]
+    Tier 6 Drawing on Life’s Experiences or Quick Wits
+
+GM Intrusions: New situations are confounding and stressful. Past actions (or inactions) come back to haunt the character.
+
+# Drives Like A Maniac
+
+Whether balancing on two wheels, jumping another vehicle, or driving head-on toward an oncoming enemy car, you don’t think about the risks when you’re behind the wheel.
+
+(Someone who Drives Like a Maniac needs access to a vehicle.)
+
+    Tier 1: [[[Driver|ability {}]]]
+    Tier 1: [[[Driving on the Edge|ability {}]]]
+    Tier 2: [[[Car Surfer|ability {}]]]
+    Tier 2: [[[Stare Them Down|ability {}]]]
+    Tier 3: [[[Expert Driver|ability {}]]] or [[[Enhanced Speed Edge|ability {}]]]
+    Tier 4: [[[Sharp-Eyed|ability {}]]]
+    Tier 4: [[[Enhanced Speed|ability {}]]]
+    Tier 5: [[[Something in the Road|ability {}]]]
+    Tier 6: [[[Trick Driver|ability {}]]] or [[[Lethal Damage|ability {}]]]
+
+GM Intrusions: The engine develops a knock. The bridge on the road ahead is out. The windshield shatters. Someone unexpectedly runs in front of the vehicle.
+
+# Emerged From the Obelisk
+
+Your body, hard as crystal, gives you a suite of unique abilities, gained after an interaction with a floating crystalline obelisk.
+
+    Tier 1: [[[Crystalline Body|ability {}]]]
+    Tier 2: [[[Hover|ability {}]]]
+    Tier 3: [[[Inhabit Crystal|ability {}]]] or [[[Immovable|ability {}]]]
+    Tier 4: [[[Crystal Lens|ability {}]]]
+    Tier 5: [[[Resonant Frequency|ability {}]]]
+    Tier 6: [[[Resonant Quake|ability {}]]] or [[[Return to the Obelisk|ability {}]]]
+
+GM Intrusions: Cyphers and artifacts react unexpectedly in the character’s hands.
+
+# Employs Magnetism
+
+You command metal and the power of magnetism.
+
+    Tier 1: [[[Move Metal|ability {}]]]
+    Tier 2: [[[Repel Metal|ability {}]]]
+    Tier 3: [[[Destroy Metal|ability {}]]] or [[[Guide Bolt|ability {}]]]
+    Tier 4: [[[Magnetic Field|ability {}]]]
+    Tier 5: [[[Command Metal|ability {}]]]
+    Tier 6: [[[Diamagnetism|ability {}]]] or [[[Iron Punch|ability {}]]]
+
+GM Intrusions: The metal twists, bends, or produces shrapnel. A lapse in concentration might cause something to slip or drop at just the wrong time.
+
+# Entertains
+
+You perform, mostly for the benefit of others.
+
+    Tier 1: [[[Levity|ability {}]]]
+    Tier 2: [[[Inspiring Ease|ability {}]]]
+    Tier 3: [[[Knowledge Skills|ability {}]]] or [[[Greater Enhanced Potential|ability {}]]]
+    Tier 4: [[[Calm|ability {}]]]
+    Tier 5: [[[Able Assistance|ability {}]]]
+    Tier 6: [[[Master Entertainer|ability {}]]] or [[[Vindictive Performance|ability {}]]]
+
+GM Intrusions: The audience is annoyed or offended. Musical instruments break. Paints dry in their pots. The words to a poem or song are forgotten.
+
+# Exists in Two Places at Once
+
+You exist in two places at once.
+
+    Tier 1: [[[Duplicate|ability {}]]]
+    Tier 2: [[[Share Senses|ability {}]]]
+    Tier 3: [[[Superior Duplicate|ability {}]]] or [[[Resilient Duplicate|ability {}]]]
+    Tier 4: [[[Damage Transference|ability {}]]]
+    Tier 5: [[[Coordinated Effort|ability {}]]]
+    Tier 6: [[[Multiplicity|ability {}]]] or [[[Resilient Duplicate|ability {}]]]
+
+GM Intrusions: Perceiving the world from two different places disorients the character, causing momentary vertigo, nausea, or confusion.
+
+# Exists Partially Out of Phase
+
+A bit translucent, you’re slightly out of phase and can move through solid objects.
+
+    Tier 1: [[[Walk Through Walls|ability {}]]]
+    Tier 2: [[[Defensive Phasing|ability {}]]]
+    Tier 3: [[[Phased Attack|ability {}]]] or [[[Phase Door|ability {}]]]
+    Tier 4: [[[Ghost|ability {}]]]
+    Tier 5: [[[Untouchable|ability {}]]]
+    Tier 6: [[[Enhanced Phased Attack|ability {}]]] or [[[Phase Foe|ability {}]]]
+
+GM Intrusions: The character is sent phasing into an unexpected dimension. The character becomes lost in a large solid.
+
+# Explores Dark Places
+
+You’re the archetypal treasure hunter, scavenger, and finder of lost things.
+
+    Tier 1: [[[Superb Explorer|ability {}]]]
+    Tier 2: [[[Superb Infiltrator|ability {}]]]
+    Tier 2: [[[Eyes Adjusted|ability {}]]]
+    Tier 3: [[[Nightstrike|ability {}]]] or [[[Slippery Customer|ability {}]]]
+    Tier 4: [[[Hard-Won Resilience|ability {}]]]
+    Tier 5: [[[Dark Explorer|ability {}]]]
+    Tier 6: [[[Blinding Attack|ability {}]]] or [[[Embraced by Darkness|ability {}]]]
+
+GM Intrusions: Possessions fall out of pockets or bags in the dark; maps get lost; information gained fails to include an important detail.
+
+# Fights Dirty
+
+You’ll do anything to win a fight: bite, scratch, kick, trick, and worse.
+
+    Tier 1: [[[Tracker|ability {}]]]
+    Tier 1: [[[Stalker|ability {}]]]
+    Tier 2: [[[Sneak|ability {}]]]
+    Tier 2: [[[Quarry|ability {}]]]
+    Tier 3: [[[Betrayal|ability {}]]] or [[[Surprise Attack|ability {}]]]
+    Tier 4: [[[Mind Games|ability {}]]]
+    Tier 4: [[[Capable Warrior|ability {}]]]
+    Tier 5: [[[Using the Environment|ability {}]]]
+    Tier 6: [[[Twisting the Knife|ability {}]]] or [[[Murderer|ability {}]]]
+
+GM Intrusions: People look poorly upon those who cheat or fight without honor. Sometimes a dirty trick backfires.
+
+# Fights With Panache
+
+You’re a swashbuckling daredevil who fights with flamboyant style that’s entertaining to watch.
+
+    Tier 1: [[[Attack Flourish|ability {}]]]
+    Tier 2: [[[Quick Block|ability {}]]]
+    Tier 3: [[[Acrobatic Attack|ability {}]]] or [[[Flamboyant Boast|ability {}]]]
+    Tier 4: [[[Block for Another|ability {}]]]
+    Tier 4: [[[Fast Kill|ability {}]]]
+    Tier 5: [[[Using the Environment|ability {}]]]
+    Tier 6: [[[Agile Wit|ability {}]]] or [[[Return to Sender|ability {}]]]
+
+GM Intrusions: The display comes off looking silly, clumsy, or unattractive.
+
+# Flies Faster Than a Bullet
+
+You can fly, and you’re superstrong, hard to hurt, and fast too. Is there anything you can’t do?
+
+    Tier 1: [[[Hover|ability {}]]]
+    Tier 2: [[[Greater Enhanced Potential|ability {}]]]
+    Tier 3: [[[Hidden Reserves|ability {}]]] or [[[See Through Matter|ability {}]]]
+    Tier 4: [[[Blink of an Eye|ability {}]]]
+    Tier 4: [[[Up to Speed|ability {}]]]
+    Tier 5: [[[Not Dead Yet|ability {}]]]
+    Tier 6: [[[Burning Light|ability {}]]] or [[[Ignore Affliction|ability {}]]]
+
+GM Intrusions: A nemesis finds the character. A strange material is found to nullify the character’s abilities.
+
+# Focuses Mind Over Matter
+
+You can telekinetically move objects with your mind without physically touching them.
+
+    Tier 1: [[[Divert Attacks|ability {}]]]
+    Tier 2: [[[Telekinesis|ability {}]]]
+    Tier 3: [[[Cloak of Opportunity|ability {}]]] or [[[Enhance Strength|ability {}]]]
+    Tier 4: [[[Apportation|ability {}]]]
+    Tier 5: [[[Psychokinetic Attack|ability {}]]]
+    Tier 6: [[[Improved Apportation|ability {}]]] or [[[Reshape|ability {}]]]
+
+GM Intrusions: One mental slip, and moving objects drop or fragile objects break. Sometimes the wrong item moves, falls, or breaks.
+
+# Fuses Flesh and Steel
+
+Your body is part machine.
+
+    Tier 1: [[[Enhanced Body|ability {}]]]
+    Tier 2: [[[Interface|ability {}]]]
+    Tier 3: [[[Sensing Package|ability {}]]] or [[[Weaponization|ability {}]]]
+    Tier 4: [[[Fusion|ability {}]]]
+    Tier 5: [[[Deep Reserves|ability {}]]]
+    Tier 6: [[[Mind Surge|ability {}]]] or [[[Ultra Enhancement|ability {}]]]
+
+GM Intrusions: People in most societies are afraid of someone who is revealed to have mechanical parts.
+
+# Fuses Mind and Machine
+
+Electronic aids implanted in your brain make you a mental powerhouse.
+
+    Tier 1: [[[Enhanced Intellect|ability {}]]]
+    Tier 1: [[[Knowledge Skills|ability {}]]]
+    Tier 2: [[[Network Tap|ability {}]]]
+    Tier 3: [[[Action Processor|ability {}]]] or [[[Machine Telepathy|ability {}]]]
+    Tier 4: [[[Greater Enhanced Intellect|ability {}]]]
+    Tier 4: [[[Knowledge Skills|ability {}]]]
+    Tier 5: [[[See the Future|ability {}]]]
+    Tier 6: [[[Machine Enhancement|ability {}]]] or [[[Mind Surge|ability {}]]]
+
+GM Intrusions: Machines malfunction and shut down. Powerful machine intelligences can take control of lesser thinking machines. Some people don’t trust a person who isn’t fully organic.
+
+# Grows to Towering Heights
+
+For brief periods, you can grow larger and, with enough experience, to towering heights.
+
+    Tier 1: [[[Enlarge|ability {}]]]
+    Tier 1: [[[Freakishly Large|ability {}]]]
+    Tier 2: [[[Bigger|ability {}]]]
+    Tier 2: [[[Advantages of Being Big|ability {}]]]
+    Tier 3: [[[Huge|ability {}]]] or [[[Throw|ability {}]]]
+    Tier 4: [[[Grab|ability {}]]]
+    Tier 5: [[[Gargantuan|ability {}]]]
+    Tier 6: [[[Colossal|ability {}]]] or [[[Lethal Damage|ability {}]]]
+
+GM Intrusions: Rapid growth knocks over furnishings or smashes through ceilings or hanging lights. An enlarged character breaks through the floor.
+
+# Has A Thousand Faces
+
+You can change your appearance to look like anyone else.
+
+    Tier 1: [[[Face Morph|ability {}]]]
+    Tier 1: [[[Interaction Skills|ability {}]]]
+    Tier 2: [[[Body Morph|ability {}]]]
+    Tier 2: [[[War Flesh|ability {}]]]
+    Tier 3: [[[Disguise Other|ability {}]]] or [[[Resilience|ability {}]]]
+    Tier 4: [[[Ageless|ability {}]]]
+    Tier 4: [[[Think Your Way Out|ability {}]]]
+    Tier 5: [[[Memory Becomes Action|ability {}]]]
+    Tier 6: [[[Divide Your Mind|ability {}]]] or [[[Infer Thoughts|ability {}]]]
+
+GM Intrusions: Part of the disguise slips. An NPC thinks the disguised character is someone they know very well.
+
+# Helps Their Friends
+
+You love your friends and help them out of any difficulty, no matter what.
+
+Type Swap Option: Advice From a Friend
+
+    Tier 1: [[[Friendly Help|ability {}]]]
+    Tier 1: [[[Courageous|ability {}]]]
+    Tier 2: [[[Weather the Vicissitudes|ability {}]]]
+    Tier 3: [[[Buddy System|ability {}]]] or [[[Skill With Attacks|ability {}]]]
+    Tier 4: [[[In Harm’s Way|ability {}]]]
+    Tier 4: [[[Enhanced Physique|ability {}]]]
+    Tier 5: [[[Inspire Action|ability {}]]]
+    Tier 6: [[[Deep Consideration|ability {}]]] or [[[Skill With Defense|ability {}]]]
+
+GM Intrusions: Others sometimes have ulterior motives. The law takes an undue interest. Even when everything goes right, repercussions follow.
+
+# Howls at the Moon
+
+For brief periods, you become a fearsome and powerful creature with control issues.
+
+    Tier 1: [[[Beast Form|ability {}]]]
+    Tier 2: [[[Controlled Change|ability {}]]]
+    Tier 3: [[[Bigger Beast Form|ability {}]]] or [[[Greater Beast Form|ability {}]]]
+    Tier 4: [[[Greater Controlled Change|ability {}]]]
+    Tier 5: [[[Enhanced Beast Form|ability {}]]]
+    Tier 6: [[[Lethal Damage|ability {}]]] or [[[Perfect Control|ability {}]]]
+
+GM Intrusions: The change happens in an uncontrolled fashion. People are terrified of monsters.
+
+# Hunts
+
+You are a stalking hunter who excels at bringing down your selected quarry.
+
+    Tier 1: [[[Attack Flourish|ability {}]]]
+    Tier 1: [[[Tracker|ability {}]]]
+    Tier 2: [[[Quarry|ability {}]]]
+    Tier 2: [[[Sneak|ability {}]]]
+    Tier 3: [[[Horde Fighting|ability {}]]] or [[[Sprint and Grab|ability {}]]]
+    Tier 4: [[[Surprise Attack|ability {}]]]
+    Tier 5: [[[Hunter’s Drive|ability {}]]]
+    Tier 6: [[[Greater Skill With Attacks|ability {}]]] or [[[Multiple Quarry|ability {}]]]
+
+GM Intrusions: The quarry notices the character. The quarry isn’t as vulnerable as it seemed.
+
+# Ignores Physical Distance
+
+You can teleport from one place to another by briefly passing through a parallel dimension.
+
+    Tier 1: [[[Dimensional Squeeze|ability {}]]]
+    Tier 2: [[[Opportunist|ability {}]]]
+    Tier 3: [[[Defensive Blinking|ability {}]]] or [[[Teleportation Burst|ability {}]]]
+    Tier 4: [[[Short Teleportation|ability {}]]]
+    Tier 5: [[[Medium Teleportation|ability {}]]]
+    Tier 6: [[[Teleportation|ability {}]]] or [[[Teleportive Wound|ability {}]]]
+
+GM Intrusions: A teleport goes awry, landing the character in a dangerous place. Inertia (such as from falling) continues through the teleport, injuring the character.
+
+# Infiltrates
+
+Subtlety, guile, and stealth allow you to get in where others can’t.
+
+    Tier 1: [[[Stealth Skills|ability {}]]]
+    Tier 1: [[[Sense Attitudes|ability {}]]]
+    Tier 2: [[[Impersonate|ability {}]]]
+    Tier 2: [[[Flight Not Fight|ability {}]]]
+    Tier 3: [[[Awareness|ability {}]]] or [[[Skill With Attacks|ability {}]]]
+    Tier 4: [[[Invisibility|ability {}]]]
+    Tier 5: [[[Evasion|ability {}]]]
+    Tier 6: [[[Brainwashing|ability {}]]] or [[[Spring Away|ability {}]]]
+
+GM Intrusions: Spies are treated harshly when caught. Allies disavow infiltrators who get caught. Some secrets are better left unknown.
+
+# Interprets the Law
+
+You excel at winning others over to your views.
+
+    Tier 1: [[[Opening Statement|ability {}]]]
+    Tier 1: [[[Knowledge of the Law|ability {}]]]
+    Tier 2: [[[Debate|ability {}]]]
+    Tier 3: [[[Able Assistance|ability {}]]] or [[[Enhanced Intellect Edge|ability {}]]]
+    Tier 4: [[[Castigate|ability {}]]]
+    Tier 5: [[[No One Knows Better|ability {}]]]
+    Tier 6: [[[Greater Enhanced Potential|ability {}]]] or [[[Legal Intern|ability {}]]]
+
+GM Intrusions: Onlookers react badly to a know-it-all. A distraction or interruption throws the character’s argument off the rails.
+
+# Is Idolized by Millions
+
+You’re a celebrity and most people adore you.
+
+    Tier 1: [[[Entourage|ability {}]]]
+    Tier 1: [[[Celebrity Talent|ability {}]]]
+    Tier 2: [[[Perks of Stardom|ability {}]]]
+    Tier 3: [[[Incredible Health|ability {}]]] or [[[Skill With Attacks|ability {}]]]
+    Tier 4: [[[Captivate With Starshine|ability {}]]]
+    Tier 4: [[[Expert Follower|ability {}]]]
+    Tier 5: [[[Do You Know Who I Am?|ability {}]]]
+    Tier 6: [[[Transcend the Script|ability {}]]] or [[[Improved Companion|ability {}]]]
+
+GM Intrusions: Fans are endangered or hurt on your behalf. Someone in your entourage betrays you. Your show, tour, contract, or other event is canceled. The media posts photos of you in an embarrassing situation.
+
+# Is Licensed to Carry
+
+You carry a gun and you know how to use it in a fight.
+
+    Although Is Licensed to Carry is designed with modern firearms in mind, it could apply to flintlock weapons, futuristic laser blasters, or other ranged weapons.
+
+    Tier 1: [[[Gunner|ability {}]]]
+    Tier 1: [[[Practiced With Guns|ability {}]]]
+    Tier 2: [[[Careful Shot|ability {}]]]
+    Tier 3: [[[Trained Gunner|ability {}]]] or [[[Damage Dealer|ability {}]]]
+    Tier 4: [[[Snap Shot|ability {}]]]
+    Tier 5: [[[Arc Spray|ability {}]]]
+    Tier 6: [[[Special Shot|ability {}]]] or [[[Lethal Damage|ability {}]]]
+
+GM Intrusions: Misfire or jam! The attack fails and the action is lost, plus an additional action is needed to fix the problem.
+
+# Is Wanted by the Law
+
+“WANTED, DEAD OR ALIVE” posters (or their equivalent) have appeared featuring your face. It’s up to you whether it’s a mistake that snowballed out of control or you actually would kill someone just for looking at you.
+
+    Tier 1: [[[Enhanced Speed|ability {}]]]
+    Tier 1: [[[Danger Sense|ability {}]]]
+    Tier 2: [[[Surprise Attack|ability {}]]]
+    Tier 3: [[[Outlaw Reputation|ability {}]]] or [[[Successive Attack|ability {}]]]
+    Tier 4: [[[Fast Kill|ability {}]]]
+    Tier 5: [[[Band of Desperados|ability {}]]]
+    Tier 6: [[[Not Dead Yet|ability {}]]] or [[[Lethal Damage|ability {}]]]
+
+GM Intrusions: Most people do not take well to discovering a wanted outlaw in their midst.
+
+# Keeps a Magic Ally
+
+An allied magic creature bound to an object (such as a minor djinn in a lamp, or a ghost in a pipe) is your friend, protector, and weapon.
+
+    Tier 1: [[[Bound Magic Creature|ability {}]]]
+    Tier 2: [[[Object Bond|ability {}]]]
+    Tier 2: [[[Hidden Closet|ability {}]]]
+    Tier 3: [[[Minor Wish|ability {}]]] or [[[Mount|ability {}]]]
+    Tier 4: [[[Improved Object Bond|ability {}]]]
+    Tier 5: [[[Moderate Wish|ability {}]]]
+    Tier 6: [[[Object Bond Mastery|ability {}]]] or [[[Trust to Luck|ability {}]]]
+
+GM Intrusions: The creature unexpectedly disappears into its bound object. The bound object cracks. The creature disagrees and doesn’t do as asked. The creature says it’s leaving unless a task is performed for it.
+
+# Leads
+
+Your natural leadership capability allows you to command others, including a loyal band of followers.
+
+    Tier 1: [[[Natural Charisma|ability {}]]]
+    Tier 1: [[[Good Advice|ability {}]]]
+    Tier 2: [[[Enhanced Potential|ability {}]]]
+    Tier 2: [[[Basic Follower|ability {}]]]
+    Tier 3: [[[Advanced Command|ability {}]]] or [[[Expert Follower|ability {}]]]
+    Tier 4: [[[Captivate|ability {}]]] or [[[Inspire|ability {}]]]
+    Tier 5: [[[Greater Enhanced Potential|ability {}]]]
+    Tier 6: [[[Band of Followers|ability {}]]] or [[[Mind of a Leader|ability {}]]]
+
+GM Intrusions: Followers fail, betray, lie, become corrupted, get kidnapped, or die.
+
+# Learns Quickly
+
+You deal with bad situations as they arise, learning new lessons each time.
+
+    Tier 1: [[[Enhanced Intellect|ability {}]]]
+    Tier 1: [[[There’s Your Problem|ability {}]]]
+    Tier 2: [[[Quick Study|ability {}]]]
+    Tier 3: [[[Hard to Distract|ability {}]]]
+    Tier 3: [[[Enhanced Intellect Edge|ability {}]]] or [[[Flex Skill|ability {}]]]
+    Tier 4: [[[Pay It Forward|ability {}]]]
+    Tier 5: [[[Enhanced Intellect|ability {}]]]
+    Tier 5: [[[Learned a Few Things|ability {}]]]
+    Tier 6: [[[Two Things at Once|ability {}]]] or [[[Skill With Defense|ability {}]]]
+
+GM Intrusions: Accidents and mistakes are great teachers.
+
+# Lives in the Wilderness
+
+You can survive in badlands where others perish.
+
+    Tier 1: [[[Wilderness Life|ability {}]]]
+    Tier 1: [[[Enhanced Might|ability {}]]]
+    Tier 2: [[[Living Off the Land|ability {}]]]
+    Tier 2: [[[Wilderness Explorer|ability {}]]]
+    Tier 3: [[[Animal Senses and Sensibilities|ability {}]]] or [[[Wilderness Encouragement|ability {}]]]
+    Tier 4: [[[Wilderness Awareness|ability {}]]]
+    Tier 5: [[[The Wild Is on Your Side|ability {}]]]
+    Tier 6: [[[One With the Wild|ability {}]]] or [[[Wild Camouflage|ability {}]]]
+
+GM Intrusions: People in cities and towns sometimes disparage those who look (and smell) like they live in the wilds, as if they were ignorant or barbaric.
+
+# Looks for Trouble
+
+You’re a scrapper and love a good fight.
+
+    Tier 1: [[[Fists of Fury|ability {}]]]
+    Tier 1: [[[Wound Tender|ability {}]]]
+    Tier 2: [[[Protector|ability {}]]]
+    Tier 2: [[[Straightforward|ability {}]]]
+    Tier 3: [[[Skill With Attacks|ability {}]]] or [[[Greater Enhanced Potential|ability {}]]]
+    Tier 4: [[[Knock Out|ability {}]]]
+    Tier 5: [[[Mastery With Attacks|ability {}]]]
+    Tier 6: [[[Greater Enhanced Might|ability {}]]] or [[[Lethal Damage|ability {}]]]
+
+GM Intrusions: Weapons break or fly from even the strongest grip. Brawlers trip and fall. Even the battlefield can work against you with things falling or collapsing.
+
+# Loves the Void
+
+When it’s just you, your spacesuit, and the panorama of stars wheeling out forever and always, you are at peace.
+
+Type Swap Option: Have Spacesuit, Will Travel
+
+    Tier 1: [[[Vacuum Skilled|ability {}]]]
+    Tier 1: [[[Microgravity Adept|ability {}]]]
+    Tier 2: [[[Enhanced Speed Edge|ability {}]]]
+    Tier 2: [[[Enhanced Physique|ability {}]]]
+    Tier 3: [[[Space Fighting|ability {}]]] or [[[Fusion Armor|ability {}]]]
+    Tier 4: [[[Silent As Space|ability {}]]]
+    Tier 4: [[[Push Off and Throw|ability {}]]]
+    Tier 5: [[[Microgravity Avoidance|ability {}]]]
+    Tier 6: [[[Weightless Shot|ability {}]]] or [[[Reactive Field|ability {}]]]
+
+GM Intrusions: Spacesuits develop glitches. Air refill cartridges sometimes misreport capacity. Micrometeorites are common in space.
+
+# Masters Defense
+
+You use protective equipment and practiced techniques to avoid becoming hurt in a fight.
+
+    Tier 1: [[[Shield Master|ability {}]]]
+    Tier 2: [[[Sturdy|ability {}]]]
+    Tier 2: [[[Practiced in Armor|ability {}]]]
+    Tier 3: [[[Dodge and Resist|ability {}]]] or [[[Dodge and Respond|ability {}]]]
+    Tier 4: [[[Tower of Will|ability {}]]]
+    Tier 4: [[[Experienced in Armor|ability {}]]]
+    Tier 5: [[[Nothing but Defend|ability {}]]]
+    Tier 6: [[[Defense Master|ability {}]]] or [[[Wear It Well|ability {}]]]
+
+GM Intrusions: Shields break when hit, as do weapons used to parry. Armor straps break.
+
+# Masters Spells
+
+By specializing in spellcasting and keeping a spellbook, you can quickly cast spells of arcing lightning, rolling fire, creeping shadow, and summoning.
+
+    Tier 1: [[[Arcane Flare|ability {}]]]
+    Tier 2: [[[Ray of Confusion|ability {}]]]
+    Tier 3: [[[Fire Bloom|ability {}]]] or [[[Summon Giant Spider|ability {}]]]
+    Tier 4: [[[Soul Interrogation|ability {}]]]
+    Tier 5: [[[Granite Wall|ability {}]]]
+    Tier 6: [[[Summon Demon|ability {}]]] or [[[Word of Death|ability {}]]]
+
+GM Intrusions: The spell goes wrong. The summoned creature turns on the caster. A rival spellcaster is drawn to the magic use.
+
+# Masters the Swarm
+
+Insects. Rats. Bats. Even birds. You master one type of small creature that obeys you.
+
+    Tier 1: [[[Influence Swarm|ability {}]]]
+    Tier 2: [[[Control Swarm|ability {}]]]
+    Tier 3: [[[Living Armor|ability {}]]] or [[[Skill With Attacks|ability {}]]]
+    Tier 4: [[[Call Swarm|ability {}]]]
+    Tier 5: [[[Gain Unusual Companion|ability {}]]]
+    Tier 6: [[[Deadly Swarm|ability {}]]] or [[[Skill With Defense|ability {}]]]
+
+GM Intrusions: A command is misunderstood. Control is erratic or is lost. Bites and stings are not uncommon for masters of the swarm.
+
+# Masters Weaponry
+
+You are a master user of a particular type of weapon, be it a sword, whip, dagger, gun, or something else.
+
+(Someone who Masters Weaponry might have additional equipment, including a high- quality weapon.)
+
+    Tier 1: [[[Weapon Master|ability {}]]]
+    Tier 1: [[[Weapon Crafter|ability {}]]]
+    Tier 2: [[[Weapon Defense|ability {}]]]
+    Tier 3: [[[Rapid Attack|ability {}]]] or [[[Disarming Strike|ability {}]]]
+    Tier 4: [[[Never Fumble|ability {}]]]
+    Tier 5: [[[Extreme Mastery|ability {}]]]
+    Tier 6: [[[Murderer|ability {}]]] or [[[Deadly Strike|ability {}]]]
+
+GM Intrusions: Weapons break. Weapons can be stolen. Weapons can be dropped or forced out of your hand.
+
+# Metes Out Justice
+
+You right wrongs, protect the innocent, and punish the guilty.
+
+    Tier 1: [[[Make Judgment|ability {}]]]
+    Tier 1: [[[Designation|ability {}]]]
+    Tier 2: [[[Defend the Innocent|ability {}]]]
+    Tier 2: [[[Improved Designation|ability {}]]]
+    Tier 3: [[[Defend All the Innocent|ability {}]]] or [[[Punish the Guilty|ability {}]]]
+    Tier 4: [[[Find the Guilty|ability {}]]]
+    Tier 4: [[[Greater Designation|ability {}]]]
+    Tier 5: [[[Punish All the Guilty|ability {}]]]
+    Tier 6: [[[Damn the Guilty|ability {}]]] or [[[Inspire the Innocent|ability {}]]]
+
+GM Intrusions: Guilt or innocence can be complicated. Some people resent the presumption of a self-appointed judge. Passing judgment makes enemies.
+
+# Moves Like a Cat
+
+Lithe, flexible, and graceful, you move quickly and smoothly, and never seem to be where danger is.
+
+    Tier 1: [[[Greater Enhanced Speed|ability {}]]]
+    Tier 1: [[[Balance|ability {}]]]
+    Tier 2: [[[Movement Skills|ability {}]]]
+    Tier 2: [[[Safe Fall|ability {}]]]
+    Tier 3: [[[Hard to Hit|ability {}]]]
+    Tier 3: [[[Enhanced Speed Edge|ability {}]]] or [[[Greater Enhanced Speed|ability {}]]]
+    Tier 4: [[[Quick Strike|ability {}]]]
+    Tier 5: [[[Slippery|ability {}]]]
+    Tier 6: [[[Perfect Speed Burst|ability {}]]] or [[[Greater Enhanced Speed|ability {}]]]
+
+GM Intrusions: Even a cat can be clumsy. A jump isn’t quite as easy as it looks. An escape move is so overzealous that it sends the character right into harm’s way.
+
+# Moves Like the Wind
+
+You can move so fast that you become a blur.
+
+    Tier 1: [[[Greater Enhanced Speed|ability {}]]]
+    Tier 1: [[[Fleet of Foot|ability {}]]]
+    Tier 2: [[[Hard to Hit|ability {}]]]
+    Tier 3: [[[Speed Burst|ability {}]]] or [[[Greater Enhanced Speed|ability {}]]]
+    Tier 4: [[[Blink of an Eye|ability {}]]]
+    Tier 5: [[[Hard to See|ability {}]]]
+    Tier 6: [[[Perfect Speed Burst|ability {}]]] or [[[Incredible Running Speed|ability {}]]]
+
+GM Intrusions: Surfaces can be slick or offer hidden obstacles. The movement of other creatures can be unpredictable, and the character might run into them.
+
+# Murders
+
+You’re an assassin, whether by trade, by inclination, or because it was that or be killed yourself. (Someone who Murders might have additional equipment, including three doses of a level 2 blade poison that inflicts 5 points of damage.)
+
+    Tier 1: [[[Surprise Attack|ability {}]]]
+    Tier 1: [[[Assassin Skills|ability {}]]]
+    Tier 2: [[[Quick Death|ability {}]]]
+    Tier 2: [[[Infiltrator|ability {}]]]
+    Tier 3: [[[Awareness|ability {}]]] or [[[Poison Crafter|ability {}]]]
+    Tier 4: [[[Better Surprise Attack|ability {}]]]
+    Tier 5: [[[Damage Dealer|ability {}]]]
+    Tier 6: [[[Escape Plan|ability {}]]] or [[[Murderer|ability {}]]]
+
+GM Intrusions: Most people do not react well to a professional killer.
+
+# Needs No Weapon
+
+Powerful punches, kicks, elbows, knees, and full body movements are all the weapons you need.
+
+    Tier 1: [[[Fists of Fury|ability {}]]]
+    Tier 1: [[[Flesh of Stone|ability {}]]]
+    Tier 2: [[[Advantage to Disadvantage|ability {}]]]
+    Tier 2: [[[Unarmed Fighting Style|ability {}]]]
+    Tier 3: [[[Moving Like Water|ability {}]]] or [[[Greater Enhanced Potential|ability {}]]]
+    Tier 4: [[[Divert Attacks|ability {}]]]
+    Tier 5: [[[Stun Attack|ability {}]]]
+    Tier 6: [[[Master of Unarmed Fighting Style|ability {}]]] or [[[Lethal Damage|ability {}]]]
+
+GM Intrusions: Striking certain foes hurts you as much as it hurts them. Opponents with weapons have greater reach. Complicated martial arts moves can knock you off balance.
+
+# Never Says Die
+
+You never quit, can shrug off a beating, and always come back for more.
+
+    Tier 1: [[[Improved Recovery|ability {}]]]
+    Tier 1: [[[Push on Through|ability {}]]]
+    Tier 2: [[[Ignore the Pain|ability {}]]]
+    Tier 3: [[[Blood Fever|ability {}]]] or [[[Hidden Reserves|ability {}]]]
+    Tier 4: [[[Increasing Determination|ability {}]]] or [[[Outlast the Foe|ability {}]]]
+    Tier 5: [[[Not Dead Yet|ability {}]]]
+    Tier 6: [[[Final Defiance|ability {}]]] or [[[Ignore Affliction|ability {}]]]
+
+GM Intrusions: Sometimes, it’s equipment or weapons that give out.
+
+# Operates Undercover
+
+Under the guise of someone else, you seek to find answers the powerful do not want divulged.
+
+(Someone who Operates Undercover might have additional equipment that includes a disguise kit.)
+
+    Tier 1: [[[Investigate|ability {}]]]
+    Tier 2: [[[Disguise|ability {}]]]
+    Tier 3: [[[Agent Provocateur|ability {}]]] or [[[Run and Fight|ability {}]]]
+    Tier 4: [[[Pull a Fast One|ability {}]]]
+    Tier 5: [[[Using What’s Available|ability {}]]]
+    Tier 6: [[[Trust to Luck|ability {}]]] or [[[Deadly Strike|ability {}]]]
+
+GM Intrusions: Bad luck can ruin the best plans. Disguises fail. Allies are revealed to be agents, too.
+
+# Performs Feats of Strength
+
+A muscled prodigy, you can haul incredible weight, hurl your body through the air, and punch through doors.
+
+    Tier 1: [[[Athlete|ability {}]]]
+    Tier 1: [[[Enhanced Might Edge|ability {}]]]
+    Tier 2: [[[Feat of Strength|ability {}]]]
+    Tier 3: [[[Iron Fist|ability {}]]] or [[[Throw|ability {}]]]
+    Tier 4: [[[Greater Enhanced Might|ability {}]]]
+    Tier 5: [[[Brute Strike|ability {}]]]
+    Tier 6: [[[Greater Enhanced Might|ability {}]]] or [[[Jump Attack|ability {}]]]
+
+GM Intrusions: It’s easy to break delicate things or hurt someone accidentally.
+
+# Pilots Starcraft
+
+You’re a crack starship pilot.
+
+    Tier 1: [[[Pilot|ability {}]]]
+    Tier 1: [[[Flex Lore|ability {}]]]
+    Tier 2: [[[Salvage and Comfort|ability {}]]]
+    Tier 2: [[[Mentally Tough|ability {}]]]
+    Tier 3: [[[Expert Pilot|ability {}]]]
+    Tier 3: [[[Ship Footing|ability {}]]] or [[[Machine Companion|ability {}]]]
+    Tier 4: [[[Sensor Array|ability {}]]]
+    Tier 4: [[[Enhanced Speed|ability {}]]]
+    Tier 5: [[[Like the Back of Your Hand|ability {}]]]
+    Tier 6: [[[Incomparable Pilot|ability {}]]]
+    Tier 6: [[[Remote Control|ability {}]]] or [[[Skill With Attacks|ability {}]]]
+
+GM Intrusions: Starcraft get lost, break down, and are attacked in space. An alien stowaway is found.
+
+# Plays Too Many Games
+
+Lessons, reflexes, and strategies you’ve learned by playing too many games have applications in the real world, where people who don’t play enough toil and live their dreary lives.
+
+    Tier 1: [[[Game Lessons|ability {}]]]
+    Tier 1: [[[Gamer|ability {}]]]
+    Tier 2: [[[Zero Dark Eyes|ability {}]]]
+    Tier 2: [[[Resist Tricks|ability {}]]]
+    Tier 3: [[[Sniper’s Aim|ability {}]]] or [[[Enhanced Speed Edge|ability {}]]]
+    Tier 4: [[[Mind Games|ability {}]]]
+    Tier 4: [[[Enhanced Intellect|ability {}]]]
+    Tier 5: [[[Gamer’s Fortitude|ability {}]]]
+    Tier 6: [[[Mind Surge|ability {}]]] or [[[Gaming God|ability {}]]]
+
+GM Intrusions: Missed attacks strike the wrong target. Equipment breaks. Sometimes people react negatively to someone who has lived most of their life in imaginary game worlds.
+
+# Rages
+
+When you go berserk, everyone fears you.
+
+    Tier 1: [[[Frenzy|ability {}]]]
+    Tier 2: [[[Greater Enhanced Might|ability {}]]]
+    Tier 2: [[[Movement Skills|ability {}]]]
+    Tier 3: [[[Power Strike|ability {}]]] or [[[Unarmored Fighter|ability {}]]]
+    Tier 4: [[[Greater Frenzy|ability {}]]]
+    Tier 5: [[[Attack and Attack Again|ability {}]]]
+    Tier 6: [[[Greater Enhanced Potential|ability {}]]] or [[[Lethal Damage|ability {}]]]
+
+GM Intrusions: It’s easy for a berserker to lose control and attack friend as well as foe.
+
+# Rides the Lightning
+
+You create and discharge electrical power.
+
+    Tier 1: [[[Shock|ability {}]]]
+    Tier 1: [[[Charge|ability {}]]]
+    Tier 2: [[[Bolt Rider|ability {}]]]
+    Tier 3: [[[Electric Armor|ability {}]]] or [[[Drain Charge|ability {}]]]
+    Tier 4: [[[Bolts of Power|ability {}]]]
+    Tier 5: [[[Electrical Flight|ability {}]]]
+    Tier 6: [[[Flash Across the Miles|ability {}]]] or [[[Wall of Lightning|ability {}]]]
+
+GM Intrusions: Targets other than those intended are shocked. Objects explode.
+
+# Runs Away
+
+Your first instinct is to run from danger, and you’ve gotten very good at it.
+
+    Tier 1: [[[Go Defensive|ability {}]]]
+    Tier 2: [[[Enhanced Speed|ability {}]]]
+    Tier 2: [[[Quick to Flee|ability {}]]]
+    Tier 3: [[[Incredible Running Speed|ability {}]]] or [[[Greater Enhanced Speed|ability {}]]]
+    Tier 4: [[[Increasing Determination|ability {}]]]
+    Tier 4: [[[Quick Wits|ability {}]]]
+    Tier 5: [[[Go to Ground|ability {}]]]
+    Tier 6: [[[Burst of Escape|ability {}]]] or [[[Skill With Defense|ability {}]]]
+
+GM Intrusions: Quick movements sometimes lead to dropped items, slipping on uneven ground, or going the wrong way by accident.
+
+# Sailed Beneath the Jolly Roger
+
+You sailed with a crew of dread pirates, but you’ve decided to end your days as a pirate and join some other cause. The question is, will your past let you go so easily?
+
+    Tier 1: [[[Ignore the Pain|ability {}]]]
+    Tier 1: [[[Sailor|ability {}]]]
+    Tier 2: [[[Taking Advantage|ability {}]]]
+    Tier 2: [[[Fearsome Reputation|ability {}]]]
+    Tier 3: [[[Skill With Attacks|ability {}]]] or [[[Skill With Defense|ability {}]]]
+    Tier 4: [[[Sea Legs|ability {}]]]
+    Tier 4: [[[Movement Skills|ability {}]]]
+    Tier 5: [[[Lost in the Chaos|ability {}]]]
+    Tier 6: [[[Duel to the Death|ability {}]]] or [[[Successive Attack|ability {}]]]
+
+GM Intrusions: The dangers of the high seas are many, including severe storms and disease. Other pirates sometimes get ahead through betrayal. A pirate tracks down former sailing mates to find hidden treasure.
+
+# Scavenges
+
+When not running and hiding, you sift the ruins of civilization for useful remnants to ensure your survival.
+
+    Tier 1: [[[Post-Apocalyptic Survivor|ability {}]]]
+    Tier 1: [[[Ruin Lore|ability {}]]]
+    Tier 2: [[[Junkmonger|ability {}]]]
+    Tier 3: [[[Taking Advantage|ability {}]]] or [[[Incredible Health|ability {}]]]
+    Tier 4: [[[Know Where to Look|ability {}]]]
+    Tier 5: [[[Recycled Cyphers|ability {}]]]
+    Tier 6: [[[Artifact Scavenger|ability {}]]] or [[[Reactive Field|ability {}]]]
+
+GM Intrusions: An item made with recycled junk breaks. Someone shows up claiming that the useful item or piece of junk scavenged belongs to them. A recycled cypher explodes.
+
+# Sculpts Hard Light
+
+You create physical objects out of hard light that you can use for offense and defense.
+
+    Tier 1: [[[Automatic Glow|ability {}]]]
+    Tier 1: [[[Temporary Light|ability {}]]]
+    Tier 2: [[[Entangling Force|ability {}]]]
+    Tier 3: [[[Harder Light|ability {}]]] or [[[Sculpt Light|ability {}]]]
+    Tier 4: [[[Greater Enhanced Intellect|ability {}]]]
+    Tier 5: [[[Improved Sculpt Light|ability {}]]]
+    Tier 6: [[[Defensive Field|ability {}]]] or [[[Flight|ability {}]]]
+
+GM Intrusions: A hard light object disappears early. A hard light object cannot affect a certain creature or color.
+
+# Sees Beyond
+
+You have a psychic sense that allows you to see what others cannot.
+
+    Tier 1: [[[See the Unseen|ability {}]]]
+    Tier 2: [[[See Through Matter|ability {}]]]
+    Tier 3: [[[Find the Hidden|ability {}]]] or [[[Sensor|ability {}]]]
+    Tier 4: [[[Remote Viewing|ability {}]]]
+    Tier 5: [[[See Through Time|ability {}]]]
+    Tier 6: [[[Mental Projection|ability {}]]] or [[[Total Awareness|ability {}]]]
+
+GM Intrusions: Some secrets are too terrible to know.
+
+# Separates Mind From Body
+
+You can project your mind out of your body to see faraway places and learn secrets that would otherwise remain hidden.
+
+    Tier 1: [[[Third Eye|ability {}]]]
+    Tier 2: [[[Open Mind|ability {}]]]
+    Tier 2: [[[Sharp Senses|ability {}]]]
+    Tier 3: [[[Roaming Third Eye|ability {}]]] or [[[Find the Hidden|ability {}]]]
+    Tier 4: [[[Sensor|ability {}]]]
+    Tier 5: [[[Psychic Passenger|ability {}]]]
+    Tier 6: [[[Mental Projection|ability {}]]] or [[[Improved Sensor|ability {}]]]
+
+GM Intrusions: Reuniting mind and body can sometimes be disorienting and require a character to spend a few moments to get their bearings.
+
+# Shepherds the Community
+
+You keep the place where you live safe from all danger.
+
+    Tier 1: [[[Community Knowledge|ability {}]]]
+    Tier 1: [[[Community Activist|ability {}]]]
+    Tier 2: [[[Skill With Attacks|ability {}]]]
+    Tier 3: [[[Shepherd’s Fury|ability {}]]] or [[[Skill With Defense|ability {}]]]
+    Tier 4: [[[Greater Enhanced Potential|ability {}]]]
+    Tier 5: [[[Evasion|ability {}]]]
+    Tier 6: [[[Greater Skill With Attacks|ability {}]]] or [[[Protective Wall|ability {}]]]
+
+GM Intrusions: People in the community misunderstand the character’s motives. Rivals try to oust the character.
+
+# Shepherds Spirits
+
+Wandering souls, nature spirits, and elemental beings aid and support you.
+
+(In some settings, the Shepherds Spirits focus applies to only one kind of spirit, such as spirits of the deceased, nature spirits, and so on.)
+
+    Tier 1: [[[Question the Spirits|ability {}]]]
+    Tier 2: [[[Spirit Accomplice|ability {}]]]
+    Tier 3: [[[Command Spirit|ability {}]]] or [[[Preternatural Senses|ability {}]]]
+    Tier 4: [[[Wraith Cloak|ability {}]]]
+    Tier 5: [[[Call Dead Spirit|ability {}]]]
+    Tier 6: [[[Call Otherworldly Spirit|ability {}]]] or [[[Infuse Spirit|ability {}]]]
+
+GM Intrusions: Some people don’t trust those who deal with spirits. The dead sometimes don’t want shepherding.
+
+# Shreds the Walls of the World
+
+Speed plus phasing gives you a unique ability to evade danger and simultaneously inflict damage.
+
+    Tier 1: [[[Phase Sprint|ability {}]]]
+    Tier 1: [[[Disrupting Touch|ability {}]]]
+    Tier 2: [[[Scratch Existence|ability {}]]]
+    Tier 3: [[[Invisible Phasing|ability {}]]] or [[[Walk Through Walls|ability {}]]]
+    Tier 4: [[[Phase Detonation|ability {}]]]
+    Tier 5: [[[Very Long Sprinting|ability {}]]]
+    Tier 6: [[[Shred Existence|ability {}]]] or [[[Untouchable While Moving|ability {}]]]
+
+GM Intrusions: Moving so quickly while sprinting sometimes leads to stumbles on unexpected, exotic obstacles.
+
+# Shrinks To Minute Size
+
+You can shrink down to the size of a bug and, with enough experience, even smaller.
+
+    Tier 1: [[[Shrink|ability {}]]]
+    Tier 1: [[[Beneath Notice|ability {}]]]
+    Tier 2: [[[Smaller|ability {}]]]
+    Tier 2: [[[Advantages of Being Small|ability {}]]]
+    Tier 3: [[[Enlarge|ability {}]]] or [[[Quick Switch|ability {}]]]
+    Tier 4: [[[Small Flight|ability {}]]]
+    Tier 5: [[[Shrink Others|ability {}]]]
+    Tier 6: [[[Bigger|ability {}]]] or [[[Tiny|ability {}]]]
+
+GM Intrusions: A creature thinks the small character is potential food. The small character gets trapped in a tiny space or under a falling object.
+
+    A character who Shrinks to Minute Size who chooses to learn abilities like Enlarge will never be quite as big as one who Grows to Towering Heights, but they can enjoy the advantages of being big or small as needed.
+
+
+# Siphons Power
+
+You suck power out of machines and creatures alike in order to empower yourself.
+
+    Robots and other living machines should be treated as creatures, not machines, for the purposes of siphoning power from them.
+
+    Tier 1: [[[Drain Machine|ability {}]]]
+    Tier 2: [[[Drain Creature|ability {}]]]
+    Tier 3: [[[Drain at a Distance|ability {}]]] or [[[Unraveling Consumption|ability {}]]]
+    Tier 4: [[[Store Energy|ability {}]]]
+    Tier 5: [[[Share the Power|ability {}]]]
+    Tier 6: [[[Explosive Release|ability {}]]] or [[[Sun Siphon|ability {}]]]
+
+GM Intrusions: Drained power also transmits something unwanted—compulsions, afflictions, or alien thoughts. Siphoned power can overload the character, causing feedback.
+
+# Slays Monsters
+
+You kill monsters.
+
+    Although wielding a sword in a setting where people usually do not carry such weapons is fine, you can change the Slays Monsters sword-related abilities to use a different weapon, such as a gun with silver bullets.
+
+    Tier 1: [[[Practiced With Swords|ability {}]]]
+    Tier 1: [[[Monster Bane|ability {}]]]
+    Tier 1: [[[Monster Lore|ability {}]]]
+    Tier 2: [[[Will of Legend|ability {}]]]
+    Tier 3: [[[Trained Slayer|ability {}]]]
+    Tier 3: [[[Improved Monster Bane|ability {}]]] or [[[Misdirect|ability {}]]]
+    Tier 4: [[[Fight On|ability {}]]]
+    Tier 5: [[[Greater Skill With Attacks (swords)|ability {}]]]
+    Tier 6: [[[Murderer|ability {}]]] or [[[Heroic Monster Bane|ability {}]]]
+
+GM Intrusions: The monster laid a trap or set an ambush. The monster has previously undisclosed abilities. The monster’s mother vows revenge.
+
+# Soars On Amazing Wings
+
+Many superheroes can fly, and some even have wings. You can use your wings for movement, attacks, and defense.
+
+    Tier 1: [[[Hover|ability {}]]]
+    Tier 1: [[[Flight Exertion|ability {}]]]
+    Tier 2: [[[Wing Weapons|ability {}]]]
+    Tier 3: [[[Acrobatic Attack|ability {}]]] or [[[Flying Companion|ability {}]]]
+    Tier 4: [[[Hard to Hit|ability {}]]]
+    Tier 5: [[[Up to Speed|ability {}]]]
+    Tier 6: [[[Hard Target|ability {}]]] or [[[Defense Master|ability {}]]]
+
+GM Intrusions: A wing gets hurt or restrained, causing the character to fall. Flying high makes the character an obvious target for an unexpected foe.
+
+# Solves Mysteries
+
+You’re a master of deduction, using evidence to find the answer.
+
+    Tier 1: [[[Investigator|ability {}]]]
+    Tier 1: [[[Sleuth|ability {}]]]
+    Tier 2: [[[Out of Harm’s Way|ability {}]]]
+    Tier 3: [[[You Studied|ability {}]]] or [[[Skill With Attacks|ability {}]]]
+    Tier 4: [[[Draw Conclusion|ability {}]]]
+    Tier 5: [[[Defuse Situation|ability {}]]]
+    Tier 6: [[[Seize the Initiative|ability {}]]] or [[[Greater Skill With Defense|ability {}]]]
+
+GM Intrusions: Evidence disappears, red herrings confuse, and witnesses lie. Initial research can be faulty.
+
+# Speaks for the Land
+
+Your spiritual connection to nature and the environment grants you mystical abilities.
+
+    Tier 1: [[[Seeds of Fury|ability {}]]]
+    Tier 1: [[[Wilderness Lore|ability {}]]]
+    Tier 2: [[[Grasping Foliage|ability {}]]]
+    Tier 3: [[[Soothe the Savage|ability {}]]] or [[[Communication|ability {}]]]
+    Tier 4: [[[Moon Shape|ability {}]]]
+    Tier 5: [[[Insect Eruption|ability {}]]]
+    Tier 6: [[[Call the Storm|ability {}]]] or [[[Earthquake|ability {}]]]
+
+GM Intrusions: An injured natural (but dangerous) creature is discovered. Someone’s poaching wildlife for their skins, leaving the carcasses to rot. A tree falls in the forest, one of the last elder trees.
+
+# Stands Like a Bastion
+
+Your armor, along with your size, strength, incredible training, or machine enhancement, makes you difficult to move or hurt.
+
+    Some characters who Stand Like a Bastion might already be experts in armor. They can choose a different tier 1 ability instead of Practiced in Armor.
+
+    Tier 1: [[[Practiced in Armor|ability {}]]]
+    Tier 1: [[[Experienced Defender|ability {}]]]
+    Tier 2: [[[Resist the Elements|ability {}]]]
+    Tier 3: [[[Unmovable|ability {}]]]
+    Tier 3: [[[Greater Enhanced Might|ability {}]]] or [[[Practiced With All Weapons|ability {}]]]
+    Tier 4: [[[Living Wall|ability {}]]]
+    Tier 5: [[[Hardiness|ability {}]]]
+    Tier 5: [[[Mastery in Armor|ability {}]]]
+    Tier 6: [[[Lethal Damage|ability {}]]] or [[[Shield Training|ability {}]]]
+
+GM Intrusions: Armor is damaged. Small foes conspire in ingenious ways.
+
+# Stretches
+
+Your body is elastic and rubbery, able to stretch to great lengths and compress when struck.
+
+    Tier 1: [[[Contortionist|ability {}]]]
+    Tier 1: [[[Far Step|ability {}]]]
+    Tier 2: [[[Elastic Grip|ability {}]]]
+    Tier 2: [[[Safe Fall|ability {}]]]
+    Tier 3: [[[Bypass Barrier|ability {}]]] or [[[Misdirect|ability {}]]]
+    Tier 4: [[[Resilience|ability {}]]]
+    Tier 5: [[[Free to Move|ability {}]]]
+    Tier 6:Break the Ranks or Not Dead Yet
+
+GM Intrusions: An attack or effect interferes with the character’s elasticity. A stretched limb becomes overstressed and weak.
+
+# Takes Animal Shape
+
+You can transform yourself into an animal.
+
+    Tier 1: [[[Animal Shape|ability {}]]]
+    Tier 2: [[[Communication|ability {}]]]
+    Tier 2: [[[Soothe the Savage|ability {}]]]
+    Tier 3: [[[Bigger Animal Shape|ability {}]]] or [[[Greater Beast Form|ability {}]]]
+    Tier 4: [[[Animal Scrying|ability {}]]]
+    Tier 5: [[[Hard to Kill|ability {}]]]
+    Tier 6: [[[Blurring Speed|ability {}]]] or [[[Lend Animal Shape|ability {}]]]
+
+GM Intrusions: The character unexpectedly changes form. An NPC is frightened by or aggressive toward the shapeshifter. The transformation takes longer than expected.
+
+    Greater Beast Form applies to using Animal Shape.
+
+
+# Talks to Machines
+
+You use your organic brain like a computer, interfacing “wirelessly” with any electronic device. You can control and influence them in ways that others can’t.
+
+    Tier 1: [[[Machine Affinity|ability {}]]]
+    Tier 1: [[[Distant Interface|ability {}]]]
+    Tier 2: [[[Coaxing Power|ability {}]]]
+    Tier 2: [[[Charm Machine|ability {}]]]
+    Tier 3: [[[Intelligent Interface|ability {}]]] or [[[Command Machine|ability {}]]]
+    Tier 4: [[[Machine Companion|ability {}]]]
+    Tier 4: [[[Robot Fighter|ability {}]]]
+    Tier 5: [[[Information Gathering|ability {}]]]
+    Tier 6: [[[Control Machine|ability {}]]] or [[[Improved Machine Companion|ability {}]]]
+
+GM Intrusions: The machine malfunctions or acts unpredictably.
+
+# Throws With Deadly Accuracy
+
+Everything that leaves your hand goes exactly where you’d like it to go and at the range and speed to make the perfect impact.
+
+    Tier 1: [[[Precision|ability {}]]]
+    Tier 2: [[[Careful Aim|ability {}]]]
+    Tier 3: [[[Quick Throw|ability {}]]] or [[[Skill With Defense|ability {}]]]
+    Tier 4: [[[Everything Is a Weapon|ability {}]]]
+    Tier 4: [[[Specialized Throwing|ability {}]]]
+    Tier 5: [[[Whirlwind of Throws|ability {}]]]
+    Tier 6: [[[Lethal Damage|ability {}]]] or [[[Mastery With Defense|ability {}]]]
+
+GM Intrusions: Missed attacks strike the wrong target. Ricochets can be dangerous. Improvised weapons break.
+
+# Thunders
+
+You emit destructive sound and manipulate soundscapes.
+
+    Tier 1: [[[Thunder Beam|ability {}]]]
+    Tier 2: [[[Sound Conversion Barrier|ability {}]]]
+    Tier 3: [[[Nullify Sound|ability {}]]] or [[[Echolocation|ability {}]]]
+    Tier 4: [[[Shattering Shout|ability {}]]]
+    Tier 5: [[[Subsonic Rumble|ability {}]]]
+    Tier 5: [[[Amplify Sounds|ability {}]]]
+    Tier 6: [[[Earthquake|ability {}]]] or [[[Lethal Vibration|ability {}]]]
+
+GM Intrusions: Loud noises attract attention.
+
+# Touches The Sky
+
+You can summon storms or break them apart.
+
+    Tier 1: [[[Hover|ability {}]]]
+    Tier 2: [[[Wind Armor|ability {}]]]
+    Tier 3: [[[Bolts of Power|ability {}]]] or [[[Storm Seed|ability {}]]]
+    Tier 4: [[[Windrider|ability {}]]]
+    Tier 5: [[[Cold Burst|ability {}]]]
+    Tier 6: [[[Control Weather|ability {}]]] or [[[Wind Chariot|ability {}]]]
+
+GM Intrusions: An ally is accidentally struck by a fork of lightning. An unexpected grounding effect inflicts damage. The weather is seeded by a much smaller effect, and a storm grows out of control.
+
+# Travels Through Time
+
+You can see through time, try to reach through it, and eventually even travel through it.
+
+    Although all character choices are subject to GM approval, Travels Through Time is a focus that the GM and player should probably have a long conversation about ahead of time, so the player knows the rules of time travel (if any) that exist in the GM’s setting. A character with this focus can drastically alter a setting, if the rules of time travel allow it.
+
+    Tier 1: [[[Anticipation|ability {}]]]
+    Tier 2: [[[See History|ability {}]]]
+    Tier 3: [[[Temporal Acceleration|ability {}]]] or [[[Time Loop|ability {}]]]
+    Tier 4: [[[Temporal Dislocation|ability {}]]]
+    Tier 5: [[[Time Doppelganger|ability {}]]]
+    Tier 6: [[[Call Through Time|ability {}]]] or [[[Time Travel|ability {}]]]
+
+GM Intrusions: Paradoxes are created. Others remember past events differently.
+
+# Uses Wild Magic
+
+Spellcaster who learns a variety of spells instead of focusing on just one kind of magic.
+
+    Tier 1: [[[Magical Repertoire|ability {}]]]
+    Tier 1: [[[Cypher Casting|ability {}]]]
+    Tier 2: [[[Expanded Repertoire|ability {}]]]
+    Tier 3: [[[Cypher Surge|ability {}]]] or [[[Faster Wild Magic|ability {}]]]
+    Tier 4: [[[Expanded Repertoire|ability {}]]]
+    Tier 5: [[[Magical Training|ability {}]]]
+    Tier 6: [[[Maximize Cypher|ability {}]]] or [[[Wild Insight|ability {}]]]
+
+GM Intrusions: A spell performs erratically or rebounds upon the caster. Something interferes with preparing spells. Spellcasting attracts the attention of a powerful creature or potential rival. The cypher spell being cast is replaced with that of a random cypher.
+
+# Walks The Wild Woods
+
+An adherent of nature magic who draws on the power and strength of trees.
+
+    Tier 1: [[[Wilderness Life|ability {}]]]
+    Tier 1: [[[Patient Recovery|ability {}]]]
+    Tier 2: [[[Wooden Body|ability {}]]]
+    Tier 3: [[[Tree Companion|ability {}]]] or [[[Wilderness Awareness|ability {}]]]
+    Tier 4: [[[Tree Travel|ability {}]]]
+    Tier 5: [[[Great Tree|ability {}]]]
+    Tier 6: [[[Dreadwood|ability {}]]] or [[[Restorative Bloom|ability {}]]]
+
+GM Intrusions: A wooden character catches fire. A wild swing from a tree branch hits or trips an ally. Some trees have evil hearts and hate all walking things.
+
+# Was Foretold
+
+You are the “chosen one,” and prophecy, prediction, prognostication, or some other method of determination expects great things of you one day.
+
+    Tier 1: [[[Interaction Skills|ability {}]]]
+
+    Tier 1: [[[Knowing|ability {}]]]
+
+    Tier 2: [[[Destined for Greatness|ability {}]]]
+
+    Tier 3: [[[Overcome All Obstacles|ability {}]]] or [[[Hard-Won Resilience|ability {}]]]
+
+    Tier 4: [[[Center of Attention|ability {}]]]
+
+    Tier 5: [[[Show Them the Way|ability {}]]]
+
+    Tier 6: [[[As Foretold in Prophecy|ability {}]]] or [[[Greater Enhanced Potential|ability {}]]]
+
+GM Intrusions: An enemy described in prophecy appears. Unbelievers threaten to ruin the moment. The character gains a reputation in outside circles as a fraud.
+
+# Wears a Sheen of Ice
+
+You command the wintery power of cold and ice.
+
+    Tier 1: [[[Ice Armor|ability {}]]]
+    Tier 2: [[[Frost Touch|ability {}]]]
+    Tier 3: [[[Freezing Touch|ability {}]]] or [[[Ice Creation|ability {}]]]
+    Tier 4: [[[Resilient Ice Armor|ability {}]]]
+    Tier 5: [[[Cold Burst|ability {}]]]
+    Tier 6: [[[Ice Storm|ability {}]]] or [[[Winter Gauntlets|ability {}]]]
+
+GM Intrusions: Ice makes surfaces slippery. Extreme cold causes objects to crack and break.
+
+# Wears Power Armor
+
+    Tier 1: [[[Powered Armor|ability {}]]]
+
+    Tier 1: [[[Enhanced Might|ability {}]]]
+
+    Tier 2: [[[Heads-Up Display|ability {}]]]
+
+    Tier 3: [[[Fusion Armor|ability {}]]] or [[[Incredible Health|ability {}]]]
+
+    Tier 4: [[[Force Blast|ability {}]]]
+
+    Tier 5: [[[Field-Reinforced Armor|ability {}]]]
+
+    Tier 6: [[[Masterful Armor Modification (Jet Assisted Flight)|ability {}]]] or [[[Masterful Armor Modification (Cypher Pod)|ability {}]]]
+
+GM Intrusions: The armor won’t come off. The armor acts under its own power. The armor suffers a momentary power loss. NPCs are scared by the power armor.
+
+# Wields An Enchanted Weapon
+
+You have a weapon with strange abilities, and your knowledge of its powers has allowed you to create a unique style of combat with it.
+
+    Tier 1: [[[Enchanted Weapon|ability {}]]]
+    Tier 1: [[[Innate Power|ability {}]]]
+    Tier 1: [[[Charge Weapon|ability {}]]]
+    Tier 2: [[[Power Crash|ability {}]]]
+    Tier 3: [[[Rapid Attack|ability {}]]] or [[[Throw Enchanted Weapon|ability {}]]]
+    Tier 4: [[[Defending Weapon|ability {}]]]
+    Tier 5: [[[Enchanted Movement|ability {}]]]
+    Tier 6: [[[Deadly Strike|ability {}]]] or [[[Spin Attack|ability {}]]]
+
+GM Intrusions: A weapon breaks or is dropped. The character loses their connection to the weapon until they use an action to reestablish the attunement. The weapon’s energy discharges in an unexpected way.
+
+# Wields Invisible Force
+
+You bend light and manipulate beams of force for offense and defense.
+
+    Tier 1: [[[Vanish|ability {}]]]
+    Tier 2: [[[Entangling Force|ability {}]]]
+    Tier 2: [[[Sharp Senses|ability {}]]]
+    Tier 3: [[[Force Field Barrier|ability {}]]] or [[[Multi-Vanish|ability {}]]]
+    Tier 4: [[[Invisibility|ability {}]]]
+    Tier 5: [[[Defensive Field|ability {}]]]
+    Tier 6: [[[Concussion|ability {}]]] or [[[Generate Force Field|ability {}]]]
+
+GM Intrusions: Invisibility partially fades, revealing the character’s presence. A force field is pierced by an unusual or unexpected attack.
+
+# Wields Two Weapons at Once
+
+You bear steel with both hands, ready to take on any foe.
+
+    Tier 1: [[[Dual Light Wield|ability {}]]]
+    Tier 2: [[[Double Strike|ability {}]]]
+    Tier 2: [[[Infiltrator|ability {}]]]
+    Tier 3: [[[Dual Medium Wield|ability {}]]] or [[[Precise Cut|ability {}]]]
+    Tier 4: [[[Dual Defense|ability {}]]]
+    Tier 5: [[[Dual Distraction|ability {}]]]
+    Tier 6: [[[Disarming Attack|ability {}]]] or [[[Spin Attack|ability {}]]]
+
+GM Intrusions: A blade snaps in two or a weapon flies loose from its bearer’s grip.
+
+# Works for a Living
+
+You take great satisfaction in a job well done, whether it’s coding, building houses, or mining asteroids.
+
+    Tier 1: [[[Handy|ability {}]]]
+    Tier 2: [[[Muscles of Iron|ability {}]]]
+    Tier 3: [[[Eye for Detail|ability {}]]] or [[[Improvise|ability {}]]]
+    Tier 4: [[[Enhanced Might|ability {}]]]
+    Tier 4: [[[Tough It Out|ability {}]]]
+    Tier 5: [[[Expert Skill|ability {}]]]
+    Tier 6: [[[Greater Enhanced Potential|ability {}]]] or [[[Hard-Won Resilience|ability {}]]]
+
+GM Intrusions: Repairs sometimes fail. Wiring can be tricky to decipher and still carry an electrical charge. Some people are rude to those who work for a living.
+
+# Works Miracles
+
+You can heal others with a touch, alter time to help others, and are generally beloved by everyone.
+
+    Tier 1: [[[Healing Touch|ability {}]]]
+    Tier 2: [[[Alleviate|ability {}]]]
+    Tier 3: [[[Font of Healing|ability {}]]] or [[[Miraculous Health|ability {}]]]
+    Tier 4: [[[Inspire Action|ability {}]]]
+    Tier 5: [[[Undo|ability {}]]]
+    Tier 6: [[[Greater Healing Touch|ability {}]]] or [[[Restore Life|ability {}]]]
+
+GM Intrusions: Attempts to heal might cause harm instead. A community or individual needs a healer so desperately that they hold one against their will.
+
+# Works the Back Alleys
+
+You make your way unseen, stealing from the wealthy to achieve your ends.
+
+    Tier 1: [[[Stealth Skills|ability {}]]]
+    Tier 2: [[[Underworld Contacts|ability {}]]]
+    Tier 3: [[[Pull a Fast One|ability {}]]] or [[[Guild Training|ability {}]]]
+    Tier 4: [[[Master Thief|ability {}]]]
+    Tier 5: [[[Dirty Fighter|ability {}]]]
+    Tier 6: [[[Alley Rat|ability {}]]] or [[[All-Out Con|ability {}]]]
+
+GM Intrusions: Thieves are thrown in jail. Powerful enemies are made.
+
+# Works the System
+
+You can exploit flaws in artificial systems, including but not limited to computer code.
+
+    Tier 1: [[[Hack the Impossible|ability {}]]]
+    Tier 1: [[[Computer Programming|ability {}]]]
+    Tier 2: [[[Connected|ability {}]]]
+    Tier 3: [[[Confidence Artist|ability {}]]] or [[[Skill With Attacks|ability {}]]]
+    Tier 4: [[[Confuse Enemy|ability {}]]]
+    Tier 5: [[[Work the Friendship|ability {}]]]
+    Tier 6: [[[Call in Favor|ability {}]]] or [[[Greater Enhanced Potential|ability {}]]]
+
+GM Intrusions: Contacts sometimes have ulterior motives. Devices sometimes have failsafes or even traps.
+
+# Would Rather Be Reading
+
+Books are your friends. What’s more important than knowledge? Nothing.
+
+    Tier 1: [[[Knowledge Is Power|ability {}]]]
+    Tier 2: [[[Greater Enhanced Intellect|ability {}]]]
+    Tier 3: [[[Applying Your Knowledge|ability {}]]] or [[[Flex Skill|ability {}]]]
+    Tier 4: [[[Knowledge Is Power|ability {}]]]
+    Tier 4: [[[Knowing the Unknown|ability {}]]]
+    Tier 5: [[[Greater Enhanced Intellect|ability {}]]]
+    Tier 6: [[[Knowledge Is Power|ability {}]]]
+    Tier 6: [[[Tower of Intellect|ability {}]]] or [[[Read the Signs|ability {}]]]
+
+GM Intrusions: Books burn, get wet, or get lost. Computers break or lose power. Glasses break.

@@ -3,25 +3,42 @@ import { AbilityCommand } from './commands/Ability.js';
 import { CountCommand } from './commands/Count.js';
 import { EchoCommand } from './commands/Echo.js';
 import { ErrorCommand } from './commands/Error.js';
+import { FlavorCommand } from './commands/Flavor.js';
 import { HelpCommand } from './commands/Help.js';
+import { RunCommand } from './commands/Run.js';
+import { TypeCommand } from './commands/Type.js';
 import { WaitCommand } from './commands/Wait.js';
 import { DiceParser } from './DiceParser.js';
+import { FileSystem } from './FileSystem.js';
+import { CustomVisitor } from './TableParser.js';
 import { parseCommand, type CommandArgs } from './util.js';
 
 export class TUI {
 	history: [string, string][];
 	private commands: { [key: string]: Command } = {};
 	diceParser: DiceParser;
+	fileSystem: FileSystem;
+	tableParser: CustomVisitor;
 
 	constructor(history: [string, string][] = []) {
 		this.history = history;
 		this.diceParser = new DiceParser();
+		this.tableParser = new CustomVisitor();
+		this.fileSystem = new FileSystem();
 		this.registerCommand(new EchoCommand());
-		this.registerCommand(new WaitCommand());
-		this.registerCommand(new CountCommand());
-		this.registerCommand(new ErrorCommand());
+		// this.registerCommand(new WaitCommand());
+		// this.registerCommand(new CountCommand());
+		// this.registerCommand(new ErrorCommand());
 		this.registerCommand(new HelpCommand());
 		this.registerCommand(new AbilityCommand());
+		this.registerCommand(new TypeCommand());
+		this.registerCommand(new FlavorCommand());
+		this.registerCommand(new RunCommand());
+	}
+
+	async init() {
+		await this.fileSystem.init();
+		Object.values(this.commands).forEach((command) => command.init(this.fileSystem));
 	}
 
 	registerCommand(command: Command): void {
@@ -36,9 +53,9 @@ export class TUI {
 		const command = this.commands[commandName];
 		if (command) {
 			try {
-				return await command.run(args, output);
+				return await command.run(args, output, this.diceParser, this.fileSystem, this.tableParser);
 			} catch (e: any) {
-				output(`Error: ${e}`);
+				output(`${e}`);
 				return Result.Failure;
 			}
 		} else {
@@ -93,7 +110,6 @@ export class TUI {
 		};
 
 		if (command.command.trim() === '') {
-			this.addToHistory(input, '');
 			return Promise.resolve();
 		} else if (command.command.trim() === 'clear') {
 			this.history = [];
@@ -136,5 +152,26 @@ export class TUI {
 		// console.log(this.history.map(([input, output]) => `${prompt}${input}\n${output}`).join('\n'));
 		let text = this.history.map(([input, output]) => `${prompt}${input}\n${output}\n`);
 		return text;
+	}
+
+	async complete(input: string): Promise<string[] | [string, string][]> {
+		let command = parseCommand(input, false); // TODO: Should be true
+		if (command.command.trim() === '') {
+			return [];
+		}
+		if (command.command in this.commands) {
+			if (command.args.length === 0) {
+				return [];
+			}
+			try {
+				return await this.commands[command.command].complete(command, this.fileSystem);
+			} catch (e: any) {
+				return [];
+			}
+		} else {
+			return Object.keys(this.commands)
+				.filter((c) => c.startsWith(command.command))
+				.map((c) => c.slice(command.command.length) + ' ');
+		}
 	}
 }
