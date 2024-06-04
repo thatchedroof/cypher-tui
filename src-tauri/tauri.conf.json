@@ -16,7 +16,6 @@
       "fs": {
         "all": true,
         "scope": [
-          "$RESOURCE/data/**/**",
           "$RESOURCE/data/**"
         ]
       },
@@ -49,7 +48,7 @@
         "signingIdentity": null
       },
       "resources": [
-        "data/*"
+        "$RESOURCE/data/**"
       ],
       "shortDescription": "",
       "targets": "all",
