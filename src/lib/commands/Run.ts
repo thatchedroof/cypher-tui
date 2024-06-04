@@ -7,6 +7,7 @@ import { runAST } from '$lib/TableRunner.js';
 import { CharStream, CommonTokenStream } from 'antlr4';
 import type { CommandArgs } from '$lib/util.js';
 import RollTableParser from '$lib/parser/RollTableParser.js';
+import type { TUI } from '$lib/TUI.js';
 
 export class RunCommand extends Command {
 	constructor() {
@@ -15,20 +16,14 @@ export class RunCommand extends Command {
 
 	init() {}
 
-	async run(
-		args: CommandArgs,
-		output: OutputFunction,
-		diceParser: DiceParser,
-		fileSystem: FileSystem,
-		tableParser: CustomVisitor
-	) {
+	async run(args: CommandArgs, output: OutputFunction, tui: TUI) {
 		const path = args.args[0];
 		if (!path) {
 			output('No path provided.');
 			return Result.Failure;
 		}
 
-		const table = await fileSystem.read(path);
+		const table = await tui.fileSystem.read(path);
 		if (!table) {
 			output('Table not found.');
 			return Result.Failure;
@@ -48,7 +43,7 @@ export class RunCommand extends Command {
 			const visitor = new CustomVisitor();
 			const ast = visitor.visit(tree);
 
-			output(runAST(ast as RollTableAST, diceParser).trim());
+			output(runAST(ast as RollTableAST, tui.diceParser).trim());
 		} catch (e) {
 			output(`${e}`);
 			return Result.Failure;

@@ -1,15 +1,19 @@
+import { get } from 'svelte/store';
 import { Result, type Command, type OutputFunction } from './Command.js';
 import { AbilityCommand } from './commands/Ability.js';
 import { CountCommand } from './commands/Count.js';
 import { EchoCommand } from './commands/Echo.js';
+import { EditCommand } from './commands/Edit.js';
 import { ErrorCommand } from './commands/Error.js';
 import { FlavorCommand } from './commands/Flavor.js';
 import { HelpCommand } from './commands/Help.js';
 import { RunCommand } from './commands/Run.js';
+import { TouchCommand } from './commands/Touch.js';
 import { TypeCommand } from './commands/Type.js';
 import { WaitCommand } from './commands/Wait.js';
 import { DiceParser } from './DiceParser.js';
 import { FileSystem } from './FileSystem.js';
+import { data } from './store.js';
 import { CustomVisitor } from './TableParser.js';
 import { parseCommand, type CommandArgs } from './util.js';
 
@@ -34,6 +38,8 @@ export class TUI {
 		this.registerCommand(new TypeCommand());
 		this.registerCommand(new FlavorCommand());
 		this.registerCommand(new RunCommand());
+		this.registerCommand(new EditCommand());
+		this.registerCommand(new TouchCommand());
 	}
 
 	async init() {
@@ -53,7 +59,7 @@ export class TUI {
 		const command = this.commands[commandName];
 		if (command) {
 			try {
-				return await command.run(args, output, this.diceParser, this.fileSystem, this.tableParser);
+				return await command.run(args, output, this);
 			} catch (e: any) {
 				output(`${e}`);
 				return Result.Failure;
@@ -172,6 +178,15 @@ export class TUI {
 			return Object.keys(this.commands)
 				.filter((c) => c.startsWith(command.command))
 				.map((c) => c.slice(command.command.length) + ' ');
+		}
+	}
+
+	async saveEdits(): Promise<void> {
+		const value = get(data);
+		if (value.editMode) {
+			console.log('editsSaved');
+			await this.fileSystem.write(value.editFilePath, value.editContent);
+			data.set({ editMode: false, editContent: '', editFilePath: '' });
 		}
 	}
 }

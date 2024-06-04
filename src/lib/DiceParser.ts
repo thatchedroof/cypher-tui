@@ -22,6 +22,22 @@ export class DiceParser {
 
 		const self = this;
 
+		function roll(sides: number, count: number = 1) {
+			const rolls = [];
+
+			for (let i = 0; i < count; i++) {
+				rolls.push(Math.floor(rng() * sides) + 1);
+			}
+
+			let total = rolls.reduce((a, b) => a + b, 0);
+
+			for (let roll of rolls) {
+				self.recentRolls.push([`d${sides}`, roll]);
+			}
+
+			return total;
+		}
+
 		this.math.import(
 			{
 				import: function () {
@@ -42,20 +58,20 @@ export class DiceParser {
 				derivative: function () {
 					throw new Error('Function derivative is disabled');
 				},
-				roll: function (sides: number, count: number = 1) {
-					const rolls = [];
-
-					for (let i = 0; i < count; i++) {
-						rolls.push(Math.floor(rng() * sides) + 1);
-					}
-
-					let total = rolls.reduce((a, b) => a + b, 0);
-
-					for (let roll of rolls) {
-						self.recentRolls.push([`d${sides}`, roll]);
-					}
-
-					return total;
+				roll,
+				advantage: function (sides: number, count: number = 2) {
+					return Math.max(
+						...Array(count)
+							.fill(0)
+							.map(() => roll(sides))
+					);
+				},
+				disadvantage: function (sides: number, count: number = 2) {
+					return Math.min(
+						...Array(count)
+							.fill(0)
+							.map(() => roll(sides))
+					);
 				}
 			},
 			{ override: true }
@@ -63,19 +79,41 @@ export class DiceParser {
 	}
 
 	static replace(str: string): string {
-		return str.replace(/\b(\d*)[dD](\d+)\b/g, (_, count, sides) => {
-			return `roll(${sides},${count || 1})`;
-		});
+		return str
+			.replace(/\b(\d*)[dD](\d+)\b/g, (_, count, sides) => {
+				return `roll(${sides},${count || 1})`;
+			})
+			.replace(/\b(\d*)[aA](\d+)\b/g, (_, count, sides) => {
+				return `advantage(${sides},${count || 2})`;
+			})
+			.replace(/\b(\d*)(?:da|DA)(\d+)\b/g, (_, count, sides) => {
+				return `disadvantage(${sides},${count || 2})`;
+			});
 	}
 
 	static replaceRollFunction(str: string): string {
-		return str.replace(/roll\(\s*(\d+)\s*(?:,\s*(\d+))?\s*\)/g, (_, sides, count) => {
-			if (count) {
-				return `${count}d${sides}`;
-			} else {
-				return `d${sides}`;
-			}
-		});
+		return str
+			.replace(/roll\(\s*(\d+)\s*(?:,\s*(\d+))?\s*\)/g, (_, sides, count) => {
+				if (count) {
+					return `${count}d${sides}`;
+				} else {
+					return `d${sides}`;
+				}
+			})
+			.replace(/advantage\(\s*(\d+)\s*(?:,\s*(\d+))?\s*\)/g, (_, sides, count) => {
+				if (count) {
+					return `${count}a${sides}`;
+				} else {
+					return `a${sides}`;
+				}
+			})
+			.replace(/disadvantage\(\s*(\d+)\s*(?:,\s*(\d+))?\s*\)/g, (_, sides, count) => {
+				if (count) {
+					return `${count}da${sides}`;
+				} else {
+					return `da${sides}`;
+				}
+			});
 	}
 
 	static possibilities(str: string): number {
@@ -83,7 +121,7 @@ export class DiceParser {
 
 		const replaced = DiceParser.replaceRollFunction(str);
 
-		replaced.replace(/\b(\d*)[dD](\d+)\b/g, (match, count, sides) => {
+		replaced.replace(/\b(\d*)(?:d|D|a|A|da|DA)(\d+)\b/g, (match, count, sides) => {
 			possibilities *= Math.pow(parseInt(sides), parseInt(count) || 1);
 			return '';
 		});

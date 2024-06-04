@@ -285,43 +285,42 @@ Blessing of the Gods:
     As a servant of the gods, you can call up blessings in their name. This blessing depends on the god’s general demeanor and area of influence. Choose two of the abilities described below.
 
     Authority/Law/Peace (3 Intellect points):
-
         You prevent a foe that can hear and understand you from attacking anyone or anything for one round. Action.
+
     Benevolence/Righteousness/Spirit (2+ Intellect points):
-
         One level 1 demon, spirit, or similar creature within short range is destroyed or banished. In addition to the normal options for using Effort, you can choose to use Effort to increase the maximum level of the target. Thus, to destroy or banish a level 5 target (four levels above the normal limit), you must apply four levels of Effort. Action.
+
     Death/Darkness (2 Intellect points):
-
         A target you choose within short range withers, suffering 3 points of damage. Action.
+
     Desire/Love/Health (3 Intellect points):
-
         With a touch, you restore 1d6 points to one stat Pool of any creature, including yourself. This ability is a difficulty 2 Intellect task. Each time you attempt to heal the same creature, the task is hindered by an additional step. The difficulty returns to 2 after that creature rests for ten hours. Action.
+
     Earth/Stone:
-
         You are trained in climbing, stonecraft, and spelunking. Enabler.
+
     Knowledge/Wisdom (3 Intellect points):
-
         Choose up to three creatures (potentially including yourself). For one minute, a particular type of task (but not an attack roll or defense roll) is eased for those creatures, but only while they remain within immediate range of you. Action.
+
     Nature/Animals/Plants:
-
         You are trained in botany and handling natural animals. Enabler.
+
     Protection/Silence (3 Intellect points):
-
         You create a quiet bubble of protection around you to an immediate radius for one minute. The bubble moves with you. All defense rolls for you and all creatures you designate within the bubble are eased, and no noise, regardless of its origin, sounds louder than a normal speaking voice. Action to initiate.
+
     Sky/Air (2 Intellect points):
-
         A creature you touch is immune to airborne toxins or contaminants for ten minutes. Action.
+
     Sun/Light/Fire (2 Intellect points):
-
         You cause one creature or object within short range to catch fire, inflicting 1 point of ambient damage each round until the fire is extinguished (requiring an action). Action.
+
     Trickery/Greed/Commerce:
-
         You are trained in detecting the deceptions of other creatures. Enabler.
+
     War (1 Intellect point):
-
         A target you choose within short range (potentially yourself) deals 2 additional points of damage with its next successful weapon attack. Action.
-    Water/Sea (2 Intellect points):
 
+    Water/Sea (2 Intellect points):
         A target you touch can breathe water for ten minutes. Action.
 
 Blind Machine (6 Speed points):
@@ -901,7 +900,6 @@ Dirty Fighter (2 Speed points):
 Disable Mechanisms (3 Speed points):
 
     With a keen eye and quick moves, you disrupt some functions of a robot or machine and inflict upon it one of the following maladies:
-
         All its tasks are hindered for one minute.
 
         Its speed is halved.
@@ -1631,7 +1629,6 @@ Gamer’s Fortitude:
 Gaming God:
 
     Any time you use Effort on an Intellect action, add one of the following enhancements to the action (your choice):
-
         Free level of Effort
 
         Automatic minor effect
@@ -2065,7 +2062,6 @@ Increasing Determination:
 Incredible Feat of Science (12 Intellect points):
 
     You do something amazing in the lab. This takes parts and materials equivalent to three expensive items. Possible incredible feats include:
-
         Reanimate and command a dead body for one hour.
 
         Create an engine that runs on perpetual motion.
@@ -2385,7 +2381,6 @@ Machine Efficiency (3 Intellect points):
 Machine Enhancement:
 
     Any time you use Effort on an Intellect action, add one of the following enhancements to the action (your choice):
-
         Free level of Effort
 
         Automatic minor effect
@@ -2473,16 +2468,15 @@ Masterful Armor Modification:
     Choose one of the following modifications to make to the Powered Armor from your Powered Armor ability. If you choose to make a different modification later, you can do so, but you must spend 2 XP each time and substitute the updated modification for the previous modification.
 
     Cypher Pod:
-
         The power armor provides an insulated pod in which you can carry one additional manifest cypher beyond what your cypher limit normally allows. Enabler.
+
     Drone (3 Intellect points):
-
         A level 4 drone no larger than 1 foot (30 cm) on a side launches from your armor for one hour, flying up to a long distance each round. The drone accompanies you and follows your instructions. It has manipulators, allowing it to attempt to accomplish physical tasks. You’ll probably make rolls for your drone when it takes actions. A drone in combat usually doesn’t make separate attacks but helps with yours. On your action, if the drone is next to you, it serves as an asset for one attack you make on your turn. If the drone is destroyed, you must spend another 2 XP to rebuild it or choose another Masterful Armor Modification. Action to initiate.
+
     Improved Field Reinforcement:
-
         You gain +1 to Armor while wearing your power armor. Enabler.
-    Jet-Assisted Flight (3+ Might points):
 
+    Jet-Assisted Flight (3+ Might points):
         You modify your power armor to allow you to blast off the ground and fly for one minute at a time. For each level of Effort applied, you can increase the duration by an additional minute. Action.
 
 Mastery in Armor:
@@ -2582,16 +2576,15 @@ Minor Wish:
     At your request, the magic ally from your Bound Magic Creature ability can use its action to cast a minor spell on you. Afterward, it must retreat to its bound object to rest for one hour. The effects it can produce include the following. Action to initiate.
 
     Golden Anger:
-
         A golden light touches your eyes. For the next several minutes, if you attack a target, you inflict 2 additional points of damage.
+
     Golden Ward:
-
         You gain +1 to Armor for one hour from a translucent sheen of golden light.
+
     Light of Truth:
-
         Whenever you attempt to discern falsehood during the next hour, the task is eased by two steps.
-    Touch of Grace:
 
+    Touch of Grace:
         With the magic ally’s touch, you add 3 points to any stat Pool. If you are not damaged, you add the points to your chosen Pool’s maximum. They remain until you spend them, you lose them to damage, or an hour passes.
 
 Miraculous Health:
@@ -2615,16 +2608,15 @@ Moderate Wish:
     At your request, the magic ally from your Bound Magic Creature ability can spend its action casting a moderate spell on you. Afterward, it must retreat to its bound object to rest for at least one hour. The effects it can produce include the following. Action to initiate.
 
     Golden Armor:
-
         You gain +3 to Armor for one hour from a translucent sheen of golden light.
+
     Golden Fury:
-
         A golden light blazes in your eyes. For the next three minutes, if you attack a target, you inflict 5 additional points of damage.
+
     Improved Touch of Grace:
-
         With the magic ally’s touch, you add 6 points to any stat Pool. If you are not damaged, you add the points to your chosen Pool’s maximum. They remain until you spend them, you lose them to damage, or an hour passes.
-    Invisible:
 
+    Invisible:
         With a touch, the magic ally bends light that falls on you, so you seem to disappear. You are invisible to other creatures for ten minutes. While invisible, you are specialized in stealth and Speed defense tasks. This effect ends if you do something to reveal your presence or position—attacking, using an ability, moving a large object, and so on. If this occurs, you can regain the remaining invisibility effect by taking an action to focus on hiding your position. Action to initiate.
 
 Modify Artifact Power (6 Intellect points):
@@ -2724,13 +2716,12 @@ Nightmare (5 Intellect points):
     You pull a horrifying creature from your worst nightmare into the waking world and sic it on your foes. The nightmare (level 5) persists each round while you use your action concentrating on it (or until you disperse it or it is destroyed). It has one of the following abilities, which you choose when you call it.
 
     Confusion:
-
         Instead of making a normal attack, the nightmare’s attack confuses the target for one round. On its next action, the target attacks an ally.
+
     Horrify:
-
         Instead of making a normal attack, the nightmare’s attack horrifies the target, which drops to its knees (or similar appendages). The target takes 3 points of damage that ignore Armor and is dazed for one round, during which time all its tasks are hindered.
-    Pustule Eruption:
 
+    Pustule Eruption:
         Instead of making a normal attack, the nightmare’s attack causes rancid, painful pustules to rise all over the target’s skin for one minute. If the target takes a forceful action (such as attacking another creature or moving farther than an immediate distance), the pustules burst, dealing 5 points of damage that ignore Armor. Action to initiate, action each round to concentrate.
 
 Nightstrike:
@@ -3228,7 +3219,6 @@ Remote Control (5 Intellect points):
 Remote Viewing (6 Intellect points):
 
     Distance is an illusion, as all space is one space. With great concentration, you can see another place. This ability can be used in one of two ways:
-
         Distance and direction. Pick a spot a specific distance away and in a specific direction. You can see from that vantage point as if you had used the Sensor ability there, but only for one minute.
 
         Think of a place you have seen before, either conventionally or using the other application of this power. You can see from that vantage point as if you had used the Sensor ability there, but only for one or two rounds.
@@ -3360,16 +3350,15 @@ Robot Upgrade:
     You modify your artificial assistant from the Robot Assistant ability with one new capability. Standard options include the following. Work with your GM if you prefer a different capability.
 
     Cypher Pod:
-
         The robot can carry one extra manifest cypher for you. Enabler.
+
     Flight:
-
         The robot can fly a long distance each round. It can carry you, but only for up to an hour between each of your ten-hour recovery rolls. Enabler.
+
     Force Shield:
-
         The robot can erect an opaque level 5 force field around itself and anyone within 10 feet (3 m) of it for one minute (or until it is destroyed). It cannot do so again until after your next recovery roll. Action.
-    Mounted Laser Configuration:
 
+    Mounted Laser Configuration:
         The robot can reconfigure itself and become an immobile laser weapon on a gimbal mount. In this configuration, the robot is a heavy weapon that deals 7 points of damage. If the robot acts as an autonomous turret, treat it as one level lower than its normal level. However, if the laser is fired by you or someone else who has your permission, the laser attacks are eased. Action to reconfigure; action to return to normal robot configuration.
 
 Ruin Lore:
@@ -3665,7 +3654,6 @@ Speaker for the Dead (2+ Intellect points):
 Special Shot:
 
     When you hit a target with a gun attack, you can choose to reduce the damage by 1 point but hit the target in a precise spot. Some of the possible effects include (but are not limited to) the following:
-
         You can shoot an object out of someone’s hand.
 
         You can shoot the leg, wing, or other limb it uses to move, reducing its maximum movement speed to immediate for a few days or until it receives expert medical care.
@@ -4298,7 +4286,6 @@ Weight of the World (6+ Intellect points):
 Weightless Shot:
 
     You have a sixth sense when it comes to lining up trajectories and moving in low-gravity and zero-gravity environments, which also translates to making ranged attacks. When you hit a target with a ranged attack in microgravity conditions, you can choose to reduce the damage by 2 points but hit the target in a precise spot. Some of the possible effects include (but are not limited to) the following:
-
         You punch a hole in the target’s suit, so it begins to leak air into the vacuum slowly, or all at once (your choice).
 
         You hit the reaction mass of the target’s maneuvering pack, which means the target can no longer change their trajectory, or they go spinning off in a random direction (your choice).

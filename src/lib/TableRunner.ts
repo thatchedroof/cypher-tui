@@ -7,9 +7,12 @@ export function runAST(ast: RollTableAST, diceParser: DiceParser): string {
 		if (typeof item === 'string') {
 			out += item;
 		} else if ('quoted' in item) {
-			out += item.quoted;
+			out += runAST(item.quoted, diceParser).slice(1, -1);
 		} else {
 			out += runPossibility(item, diceParser).trim();
+			if (item.block) {
+				out += '\n';
+			}
 		}
 	}
 

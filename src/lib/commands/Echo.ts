@@ -10,6 +10,7 @@ export class EchoCommand extends Command {
 
 	async run(args: CommandArgs, output: OutputFunction) {
 		args.args.forEach((arg) => output(arg + ' ', false));
+		output('');
 	}
 
 	async complete() {

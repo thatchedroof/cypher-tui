@@ -8,35 +8,22 @@ possibility: rollPossibility | blockPossibility
 
 rollPossibility:
 	LBRACE (rollPossibilityText COLON)? (
-		parenthetical? rollPossibilityText VBAR
-	)* parenthetical? rollPossibilityText RBRACE
+		rollPossibilityText VBAR
+	)* rollPossibilityText RBRACE
 	;
 
 blockPossibility:
 	DASHES (blockPossibilityText COLON)? (
-		(parenthetical? blockPossibilityText)? NEWLINE
+		blockPossibilityText? NEWLINE
 	)+ DASHES
 	;
 
-parenthetical: LPAREN FULL_CHAR+ RPAREN
-	;
-
-text: (
-		FULL_CHAR
-		| VBAR
-		| QUOTE
-		| COLON
-		| LPAREN
-		| RPAREN
-		| NEWLINE
-	)+
+text: ( FULL_CHAR | VBAR | QUOTE | COLON | NEWLINE)+
 	;
 
 rollPossibilityText: (
 		FULL_CHAR
 		| NEWLINE
-		| LPAREN
-		| RPAREN
 		| rollPossibility
 		| quotedText
 	)+
@@ -46,15 +33,13 @@ blockPossibilityText: (
 		FULL_CHAR
 		| VBAR
 		| COLON
-		| LPAREN
-		| RPAREN
 		| rollPossibility
 		| quotedText
 	)+
 	;
 
 quotedText:
-	QUOTE (FULL_CHAR | VBAR | COLON | LPAREN | RPAREN | NEWLINE)* QUOTE
+	QUOTE (FULL_CHAR | VBAR | COLON | NEWLINE | rollPossibility)* QUOTE
 	;
 
 FULL_CHAR:
@@ -67,8 +52,6 @@ FULL_CHAR:
 	| ESCAPED_VBAR
 	| ESCAPED_NEWLINE
 	| ESCAPED_COLON
-	| ESCAPED_LPAREN
-	| ESCAPED_RPAREN
 	| NEWLINE_CHAR
 	;
 
@@ -95,10 +78,6 @@ ESCAPED_VBAR: '\\|'
 	;
 ESCAPED_COLON: '\\:'
 	;
-ESCAPED_LPAREN: '\\('
-	;
-ESCAPED_RPAREN: '\\)'
-	;
 
 LBRACE: '{'
 	;
@@ -110,13 +89,9 @@ VBAR: '|'
 	;
 COLON: ':'
 	;
-LPAREN: '('
-	;
-RPAREN: ')'
-	;
 
 DASHES: '---' (NEWLINE | EOF)
 	;
 
-CHAR: ~[{}()"|:\\\r\n]
+CHAR: ~[{}"|:\\\r\n]
 	;
