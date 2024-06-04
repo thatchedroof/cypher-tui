@@ -48,7 +48,7 @@
         "signingIdentity": null
       },
       "resources": [
-        "$RESOURCE/data/**"
+        "data/**"
       ],
       "shortDescription": "",
       "targets": "all",
