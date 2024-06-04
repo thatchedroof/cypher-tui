@@ -6,6 +6,8 @@ export class HelpCommand extends Command {
 		super('help', 'Displays general help information.', 'help');
 	}
 
+	init() {}
+
 	async run(args: CommandArgs, output: OutputFunction) {
 		output('');
 		output('Cypher-tui is a text-based user interface for the Cypher roleplaying system.');
@@ -17,5 +19,9 @@ export class HelpCommand extends Command {
 		output('');
 		output('By thatchedroof :)');
 		return Result.Success;
+	}
+
+	async complete() {
+		return [];
 	}
 }

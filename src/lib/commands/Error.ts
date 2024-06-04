@@ -6,8 +6,13 @@ export class ErrorCommand extends Command {
 		super('error', 'Throws a javascript error.', 'error <message>');
 	}
 
+	init() {}
+
 	async run(args: CommandArgs, output: OutputFunction) {
 		throw new Error(args.args.join(' '));
-		return Result.Failure;
+	}
+
+	async complete() {
+		return [];
 	}
 }

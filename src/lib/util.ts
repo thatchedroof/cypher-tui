@@ -4,7 +4,7 @@ export interface CommandArgs {
 	flags: { [key: string]: string | boolean };
 }
 
-export function parseCommand(input: string): CommandArgs {
+export function parseCommand(cmd: string, incomplete: boolean = false): CommandArgs {
 	const args: string[] = [];
 	const flags: { [key: string]: string | boolean } = {};
 	let command = '';
@@ -13,6 +13,8 @@ export function parseCommand(input: string): CommandArgs {
 	let quoteChar = '';
 	let isFlag = false;
 	let flagName = '';
+
+	let input = incomplete ? cmd + '{incomplete}' : cmd;
 
 	for (let i = 0; i < input.length; i++) {
 		const char = input[i];

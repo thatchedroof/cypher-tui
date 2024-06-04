@@ -6,7 +6,14 @@ export class EchoCommand extends Command {
 		super('echo', 'Outputs the provided text.', 'echo <text>');
 	}
 
+	init() {}
+
 	async run(args: CommandArgs, output: OutputFunction) {
-		args.args.forEach((arg) => output(arg));
+		args.args.forEach((arg) => output(arg + ' ', false));
+		output('');
+	}
+
+	async complete() {
+		return [];
 	}
 }

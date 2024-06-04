@@ -1,9 +1,11 @@
 <script lang="ts">
+	import { data } from '$lib/store';
 	import { TUI } from '$lib/TUI.js';
 	import { onMount, tick } from 'svelte';
 	import { Svrollbar } from 'svrollbar';
 	import VirtualList from 'svelte-tiny-virtual-list';
 	import sanitizeHtml from 'sanitize-html';
+	import TextEdit from '$lib/TextEdit.svelte';
 
 	let tui = new TUI();
 	// console.log(prevText);
@@ -13,6 +15,9 @@
 	let virtualList: VirtualList;
 
 	let input: HTMLSpanElement;
+	let inputText: string = '';
+	let autocomplete: string = '';
+	let backcomplete: string = '';
 
 	let commandProcessing: boolean = false;
 
@@ -44,17 +49,24 @@
 					text = link.textContent || '';
 				}
 
-				input.textContent = text;
+				inputText = text;
 				inputFocus();
 			});
 		});
 	}
 
 	function inputFocus() {
-		input.focus();
-		let val = input.textContent;
-		input.textContent = '';
-		input.textContent = val;
+		try {
+			input?.focus();
+			let range = document.createRange();
+			let sel = window.getSelection();
+
+			range.setStart(input, 1);
+			range.collapse(true);
+
+			sel?.removeAllRanges();
+			sel?.addRange(range);
+		} catch (e) {}
 	}
 
 	const escapeHtml = (unsafe: string) => {
@@ -69,10 +81,11 @@
 	function show(text: string) {
 		text = escapeHtml(text);
 		text = text.replaceAll(/\[\[\[([^|\]]*?)\]\]\]/g, '<span class="cmd-button">$1</span>');
-		text = text.replaceAll(
-			/\[\[\[(.*?)\|(.*?)\]\]\]/g,
-			'<span class="cmd-button" data-cmd="$2">$1</span>'
-		);
+
+		text = text.replaceAll(/\[\[\[(.*?)\|(.*?)\]\]\]/g, (substring: string, p1: any, p2: any) => {
+			let x = p2.replaceAll('{}', p1);
+			return `<span class="cmd-button" data-cmd="${x}">${p1}</span>`;
+		});
 		text = sanitizeHtml(text, sanitizeOptions);
 		return text;
 	}
@@ -117,14 +130,59 @@
 		return total;
 	}
 
-	onMount(() => {
+	$: {
+		complete(inputText);
+		console.log('inputText', inputText);
+	}
+
+	async function complete(inp: string) {
+		autocomplete = '';
+		backcomplete = '';
+
+		if (inputText === '') {
+			return;
+		}
+
+		let completedResult = (await tui.complete(inputText))[0];
+
+		console.log('completedResult', await tui.complete(inputText));
+
+		if (Array.isArray(completedResult)) {
+			autocomplete = completedResult[1] ?? '';
+			backcomplete = completedResult[0] ?? '';
+		} else if (typeof completedResult === 'string') {
+			autocomplete = completedResult ?? '';
+			backcomplete = '';
+		}
+	}
+
+	onMount(async () => {
+		// setTimeout(() => {
+		// 	tui.editFilePath = 'test.txt';
+		// 	tui.editContent = 'Hello, world!';
+		// 	tui.editMode = true;
+		// }, 5000);
+		await tui.init();
+
 		inputFocus();
 
 		document.addEventListener('keydown', async (event) => {
+			if ($data.editMode) {
+				return;
+			}
+
+			if (document.activeElement !== input) {
+				inputFocus();
+			}
+
 			if (event.key === 'Enter') {
+				if (event.shiftKey) {
+					return;
+				}
+
 				event.preventDefault();
 
-				let command = input?.textContent || '';
+				let command = inputText || '';
 
 				commandProcessing = true;
 				await tick();
@@ -139,7 +197,7 @@
 
 				historyText = tui.asText();
 
-				input.textContent = '';
+				inputText = '';
 				inputFocus();
 
 				outputText = '';
@@ -147,10 +205,28 @@
 				addLinks();
 			} else if (event.key === 'ArrowUp') {
 				event.preventDefault();
-				// input.textContent = tui.getPreviousCommand();
+				// inputText = tui.getPreviousCommand();
 			} else if (event.key === 'ArrowDown') {
 				event.preventDefault();
-				// input.textContent = tui.getNextCommand();
+				// inputText = tui.getNextCommand();
+			} else if (event.key === 'Tab') {
+				console.log('TAB');
+
+				event.preventDefault();
+				await complete(inputText);
+
+				if (backcomplete !== '') {
+					inputText = inputText.slice(0, -backcomplete.length);
+					inputText = inputText + backcomplete;
+				}
+
+				inputText = inputText + autocomplete;
+				autocomplete = '';
+
+				console.log('inputText', inputText, 'end');
+
+				await tick();
+				inputFocus();
 			}
 		});
 
@@ -160,28 +236,37 @@
 	});
 </script>
 
-<div class="background">
-	<div class="wrapper">
-		<div bind:this={viewport} class="viewport" use:scrollToBottom={outputText}>
-			<div bind:this={contents} class="contents">
-				{#each historyText as htext}
-					<div class="item">
-						<div class="text">{@html show(htext)}</div>
-					</div>
-				{/each}
-				<div id="output" class="output text">{@html show(outputText)}</div>
+{#if $data.editMode === true}
+	<TextEdit {tui} />
+{:else}
+	<div class="background">
+		<div class="wrapper no-scroll" use:scrollToBottom={outputText}>
+			{#each historyText as htext}
+				<div class="item">
+					<div class="text history">{@html show(htext)}</div>
+				</div>
+			{/each}
+			<div id="output" class="output text">{@html show(outputText)}</div>
+			<div class="extra text"><br /><br /></div>
+			<!-- <Svrollbar {viewport} {contents} margin={{ top: 10, buttom: 10 }} /> -->
+		</div>
+
+		<div class="input-and-output">
+			<div class="input-line">
+				<span class="text prevent-select">&gt;&nbsp;</span>
+				<span
+					class="text"
+					id="input"
+					bind:this={input}
+					on:click={(e) => e.stopPropagation()}
+					bind:textContent={inputText}
+					contenteditable
+				/>
+				<span class="autocomplete text">{autocomplete}</span>
 			</div>
 		</div>
-		<Svrollbar {viewport} {contents} margin={{ top: 10, buttom: 10 }} />
 	</div>
-
-	<div class="input-and-output">
-		<div class="input-line">
-			<span class="text">&gt;&nbsp;</span>
-			<span class="text" id="input" bind:this={input} contenteditable></span>
-		</div>
-	</div>
-</div>
+{/if}
 
 <style>
 	:global(body) {
@@ -198,12 +283,17 @@
 		cursor: pointer;
 	}
 
+	.history {
+		white-space: pre;
+		text-wrap: wrap;
+		width: calc(100% - 2em);
+	}
+
 	.input-and-output {
 		padding: 1em;
 		width: 100%;
 		bottom: 0;
 
-		/* And if you want the div to be full-width: */
 		left: 0;
 		right: 0;
 
@@ -211,7 +301,26 @@
 
 		background: rgba(20, 20, 20, 0.5);
 
-		backdrop-filter: blur(6px);
+		--blur-radius: 8px;
+
+		backdrop-filter: blur(var(--blur-radius));
+		-webkit-backdrop-filter: blur(var(--blur-radius));
+
+		position: fixed;
+	}
+
+	input {
+		background: none;
+		border: none;
+		color: #10cd00;
+		font-family: 'Fixedsys Excelsior';
+		font-size: 24px;
+		outline: none;
+	}
+
+	.autocomplete {
+		pointer-events: none;
+		opacity: 0.5;
 	}
 
 	.wrapper {
@@ -230,6 +339,22 @@
 		width: 100vw;
 
 		grid-row-start: 1;
+
+		overflow-y: scroll;
+
+		padding: 1em;
+
+		text-wrap: wrap;
+	}
+
+	.no-scroll {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	.no-scroll::-webkit-scrollbar {
+		/* hide scrollbar */
+		display: none;
 	}
 
 	.viewport {
@@ -254,35 +379,6 @@
 		/* hide scrollbar */
 		display: none;
 	}
-
-	.background {
-		/* overflow-y: scroll; */
-		position: relative;
-		width: 100vw;
-		height: 100vh;
-		font-size: 24px;
-
-		background: radial-gradient(50% 50% at 50% 50%, #101e0f 0%, #0b1909 61.5%, #070f06 100%);
-
-		display: grid;
-		grid-template-rows: 1fr auto;
-	}
-
-	.text {
-		font-family: 'Fixedsys Excelsior';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 24px;
-		line-height: 24px;
-		white-space: pre-line;
-		text-wrap: wrap;
-
-		color: #10cd00;
-		/* color: #87ad84; */
-
-		text-shadow: 0px 0px 4.2px rgba(20, 255, 0, 0.48);
-	}
-
 	.input-line {
 		display: flex;
 		justify-content: flex-start;
@@ -291,24 +387,8 @@
 
 	#input {
 		outline: none;
-		flex-grow: 1;
 
 		text-wrap: wrap;
-	}
-
-	::selection {
-		background-color: #10cd00;
-		color: #101e0f;
-	}
-
-	::-webkit-selection {
-		background-color: #10cd00;
-		color: #101e0f;
-	}
-
-	::-moz-selection {
-		background-color: #10cd00;
-		color: #101e0f;
 	}
 
 	.blink {

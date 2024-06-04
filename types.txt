@@ -1,0 +1,561 @@
+First-Tier Warrior
+
+Choose four of the abilities listed below. You can’t choose the same ability more than once unless its description says otherwise.
+
+ * [[[Bash|ability {}]]]
+
+ * [[[Combat Prowess|ability {}]]]
+
+ * [[[Control the Field|ability {}]]]
+
+ * [[[Improved Edge|ability {}]]]
+
+ * [[[No Need for Weapons|ability {}]]]
+
+ * [[[Overwatch|ability {}]]]
+
+ * [[[Physical Skills|ability {}]]]
+
+ * [[[Practiced in Armor|ability {}]]]
+
+ * [[[Quick Throw|ability {}]]]
+
+ * [[[Swipe|ability {}]]]
+
+ * [[[Trained Without Armor|ability {}]]]
+
+Second-Tier Warrior
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Crushing Blow|ability {}]]]
+
+ * [[[Hemorrhage|ability {}]]]
+
+ * [[[Reload|ability {}]]]
+
+ * [[[Skill With Attacks|ability {}]]]
+
+ * [[[Skill With Defense|ability {}]]]
+
+ * [[[Successive Attack|ability {}]]]
+
+Third-Tier Warrior
+
+Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Deadly Aim|ability {}]]]
+
+ * [[[Energy Resistance|ability {}]]]
+
+ * [[[Experienced in Armor|ability {}]]]
+
+ * [[[Expert Cypher Use|ability {}]]]
+
+ * [[[Fury|ability {}]]]
+
+ * [[[Lunge|ability {}]]]
+
+ * [[[Reaction|ability {}]]]
+
+ * [[[Seize the Moment|ability {}]]]
+
+ * [[[Slice|ability {}]]]
+
+ * [[[Spray|ability {}]]]
+
+ * [[[Trick Shot|ability {}]]]
+
+ * [[[Vigilance|ability {}]]]
+
+Fourth-Tier Warrior
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Amazing Effort|ability {}]]]
+
+ * [[[Capable Warrior|ability {}]]]
+
+ * [[[Experienced Defender|ability {}]]]
+
+ * [[[Feint|ability {}]]]
+
+ * [[[Increased Effects|ability {}]]]
+
+ * [[[Momentum|ability {}]]]
+
+ * [[[Pry Open|ability {}]]]
+
+ * [[[Snipe|ability {}]]]
+
+ * [[[Tough as Nails|ability {}]]]
+
+Fifth-Tier Warrior
+
+Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Adroit Cypher Use|ability {}]]]
+
+ * [[[Arc Spray|ability {}]]]
+
+ * [[[Improved Success|ability {}]]]
+
+ * [[[Jump Attack|ability {}]]]
+
+ * [[[Mastery in Armor|ability {}]]]
+
+ * [[[Mastery With Attacks|ability {}]]]
+
+ * [[[Mastery With Defense|ability {}]]]
+
+ * [[[Parry|ability {}]]]
+
+(Remember that at higher tiers, you can choose special abilities from lower tiers. This is sometimes the best way to ensure that you have exactly the character you want. This is particularly true with abilities that grant skills, which can usually be taken multiple times.)
+
+Sixth-Tier Warrior
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Again and Again|ability {}]]]
+
+ * [[[Finishing Blow|ability {}]]]
+
+ * [[[Magnificent Moment|ability {}]]]
+
+ * [[[Murderer|ability {}]]]
+
+ * [[[Spin Attack|ability {}]]]
+
+ * [[[Weapon and Body|ability {}]]]
+
+First-Tier Adept
+
+Choose four of the abilities listed below. You can’t choose the same ability more than once unless its description says otherwise. Adept abilities require at least one free hand unless the GM says otherwise.
+
+ * [[[Distortion|ability {}]]]
+
+ * [[[Erase Memories|ability {}]]]
+
+ * [[[Far Step|ability {}]]]
+
+ * [[[Hedge Magic|ability {}]]]
+
+ * [[[Magic Training|ability {}]]]
+
+ * [[[Onslaught|ability {}]]]
+
+ * [[[Push|ability {}]]]
+
+ * [[[Resonance Field|ability {}]]]
+
+ * [[[Scan|ability {}]]]
+
+ * [[[Shatter|ability {}]]]
+
+ * [[[Ward|ability {}]]]
+
+Second-Tier Adept
+
+Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Adaptation|ability {}]]]
+
+ * [[[Cutting Light|ability {}]]]
+
+ * [[[Hover|ability {}]]]
+
+ * [[[Mind Reading|ability {}]]]
+
+ * [[[Retrieve Memories|ability {}]]]
+
+ * [[[Reveal|ability {}]]]
+
+ * [[[Stasis|ability {}]]]
+
+Note: Adaptation is listed as a high-tier ability in the Environment category, so its presence in the second tier might be an editing mistake. The Numenera version of Adaptation is significantly weaker, since it only lasts a day and requires intellect points to activate.
+
+Third-Tier Adept
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Adroit Cypher Use|ability {}]]]
+
+ * [[[Countermeasures|ability {}]]]
+
+ * [[[Energy Protection|ability {}]]]
+
+ * [[[Fire and Ice|ability {}]]]
+
+ * [[[Force Field Barrier|ability {}]]]
+
+ * [[[Sensor|ability {}]]]
+
+ * [[[Targeting Eye|ability {}]]]
+
+Fourth-Tier Adept
+
+Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Death Touch|ability {}]]]
+
+ * [[[Exile|ability {}]]]
+
+ * [[[Invisibility|ability {}]]]
+
+ * [[[Matter Cloud|ability {}]]]
+
+ * [[[Mind Control|ability {}]]]
+
+ * [[[Projection|ability {}]]]
+
+ * [[[Rapid Processing|ability {}]]]
+
+ * [[[Regeneration|ability {}]]]
+
+ * [[[Reshape|ability {}]]]
+
+ * [[[Wormhole|ability {}]]]
+
+Fifth-Tier Adept
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Absorb Energy|ability {}]]]
+
+ * [[[Concussion|ability {}]]]
+
+ * [[[Conjuration|ability {}]]]
+
+ * [[[Create|ability {}]]]
+
+ * [[[Dust to Dust|ability {}]]]
+
+ * [[[Knowing the Unknown|ability {}]]]
+
+ * [[[Master Cypher Use|ability {}]]]
+
+ * [[[Teleportation|ability {}]]]
+
+ * [[[True Senses|ability {}]]]
+
+Sixth-Tier Adept
+
+Choose one of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Control Weather|ability {}]]]
+
+ * [[[Earthquake|ability {}]]]
+
+ * [[[Move Mountains|ability {}]]]
+
+ * [[[Traverse the Worlds|ability {}]]]
+
+ * [[[Usurp Cypher|ability {}]]]
+
+First-Tier Explorer
+
+First-tier Explorers have the following abilities:
+
+Choose four of the abilities listed below. You can’t choose the same ability more than once unless its description says otherwise.
+
+ * [[[Block|ability {}]]]
+
+ * [[[Danger Sense|ability {}]]]
+
+ * [[[Decipher|ability {}]]]
+
+ * [[[Endurance|ability {}]]]
+
+ * [[[Find the Way|ability {}]]]
+
+ * [[[Fleet of Foot|ability {}]]]
+
+ * [[[Improved Edge|ability {}]]]
+
+ * [[[Knowledge Skills|ability {}]]]
+
+ * [[[Muscles of Iron|ability {}]]]
+
+ * [[[No Need for Weapons|ability {}]]]
+
+ * [[[Physical Skills|ability {}]]]
+
+ * [[[Practiced in Armor|ability {}]]]
+
+ * [[[Practiced With All Weapons|ability {}]]]
+
+ * [[[Surging Confidence|ability {}]]]
+
+ * [[[Trained Without Armor|ability {}]]]
+
+Second-Tier Explorer
+
+Choose four of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Curious|ability {}]]]
+
+ * [[[Danger Instinct|ability {}]]]
+
+ * [[[Enable Others|ability {}]]]
+
+ * [[[Escape|ability {}]]]
+
+ * [[[Eye for Detail|ability {}]]]
+
+ * [[[Foil Danger|ability {}]]]
+
+ * [[[Hand to Eye|ability {}]]]
+
+ * [[[Investigative Skills|ability {}]]]
+
+ * [[[Quick Recovery|ability {}]]]
+
+ * [[[Range Increase|ability {}]]]
+
+ * [[[Skill With Defense|ability {}]]]
+
+ * [[[Stand Watch|ability {}]]]
+
+ * [[[Travel Skills|ability {}]]]
+
+ * [[[Wreck|ability {}]]]
+
+Third-Tier Explorer
+
+Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Controlled Fall|ability {}]]]
+
+ * [[[Experienced in Armor|ability {}]]]
+
+ * [[[Expert Cypher Use|ability {}]]]
+
+ * [[[Ignore the Pain|ability {}]]]
+
+ * [[[Obstacle Running|ability {}]]]
+
+ * [[[Resilience|ability {}]]]
+
+ * [[[Run and Fight|ability {}]]]
+
+ * [[[Seize the Moment|ability {}]]]
+
+ * [[[Skill With Attacks|ability {}]]]
+
+ * [[[Stone Breaker|ability {}]]]
+
+ * [[[Think Your Way Out|ability {}]]]
+
+ * [[[Trapfinder|ability {}]]]
+
+ * [[[Wrest From Chance|ability {}]]]
+
+Fourth-Tier Explorer
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Capable Warrior|ability {}]]]
+
+ * [[[Expert Skill|ability {}]]]
+
+ * [[[Increased Effects|ability {}]]]
+
+ * [[[Read the Signs|ability {}]]]
+
+ * [[[Runner|ability {}]]]
+
+ * [[[Subtle Steps|ability {}]]]
+
+ * [[[Tough as Nails|ability {}]]]
+
+Fifth-Tier Explorer
+
+Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Adroit Cypher Use|ability {}]]]
+
+ * [[[Free to Move|ability {}]]]
+
+ * [[[Group Friendship|ability {}]]]
+
+ * [[[Hard to Kill|ability {}]]]
+
+ * [[[Jump Attack|ability {}]]]
+
+ * [[[Mastery With Defense|ability {}]]]
+
+ * [[[Parry|ability {}]]]
+
+ * [[[Physically Gifted|ability {}]]]
+
+ * [[[Take Command|ability {}]]]
+
+ * [[[Vigilant|ability {}]]]
+
+Sixth-Tier Explorer
+
+Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Again and Again|ability {}]]]
+
+ * [[[Inspire Coordinated Actions|ability {}]]]
+
+ * [[[Mastery in Armor|ability {}]]]
+
+ * [[[Mastery With Attacks|ability {}]]]
+
+ * [[[Negate Danger|ability {}]]]
+
+ * [[[Share Defense|ability {}]]]
+
+ * [[[Spin Attack|ability {}]]]
+
+ * [[[Wild Vitality|ability {}]]]
+
+First-Tier Speaker
+
+Choose four of the abilities listed below. You can’t choose the same ability more than once unless its description says otherwise.
+
+ * [[[Anecdote|ability {}]]]
+
+ * [[[Babel|ability {}]]]
+
+ * [[[Demeanor of Command|ability {}]]]
+
+ * [[[Encouragement|ability {}]]]
+
+ * [[[Enthrall|ability {}]]]
+
+ * [[[Erase Memories|ability {}]]]
+
+ * [[[Fast Talk|ability {}]]]
+
+ * [[[Inspire Aggression|ability {}]]]
+
+ * [[[Interaction Skills|ability {}]]]
+
+ * [[[Practiced With Medium Weapons|ability {}]]]
+
+ * [[[Spin Identity|ability {}]]]
+
+ * [[[Terrifying Presence|ability {}]]]
+
+ * [[[Understanding|ability {}]]]
+
+Second-Tier Speaker
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Basic Follower|ability {}]]]
+
+ * [[[Calm Stranger|ability {}]]]
+
+ * [[[Disincentivize|ability {}]]]
+
+ * [[[Gather Intelligence|ability {}]]]
+
+ * [[[Impart Ideal|ability {}]]]
+
+ * [[[Inspiring Ease|ability {}]]]
+
+ * [[[Interaction Skills|ability {}]]]
+
+ * [[[Practiced in Armor|ability {}]]]
+
+ * [[[Skill With Defense|ability {}]]]
+
+ * [[[Speedy Recovery|ability {}]]]
+
+ * [[[Unexpected Betrayal|ability {}]]]
+
+Third-Tier Speaker
+
+Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Accelerate|ability {}]]]
+
+ * [[[Blend In|ability {}]]]
+
+ * [[[Discerning Mind|ability {}]]]
+
+ * [[[Expert Cypher Use|ability {}]]]
+
+ * [[[Expert Follower|ability {}]]]
+
+ * [[[Grand Deception|ability {}]]]
+
+ * [[[Lead by Inquiry|ability {}]]]
+
+ * [[[Mind Reading|ability {}]]]
+
+ * [[[Oratory|ability {}]]]
+
+ * [[[Perfect Stranger|ability {}]]]
+
+ * [[[Quick Wits|ability {}]]]
+
+ * [[[Telling|ability {}]]]
+
+Fourth-Tier Speaker
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Anticipate Attack|ability {}]]]
+
+ * [[[Confounding Banter|ability {}]]]
+
+ * [[[Feint|ability {}]]]
+
+ * [[[Heightened Skills|ability {}]]]
+
+ * [[[Psychosis|ability {}]]]
+
+ * [[[Read the Signs|ability {}]]]
+
+ * [[[Spur Effort|ability {}]]]
+
+ * [[[Strategize|ability {}]]]
+
+ * [[[Suggestion|ability {}]]]
+
+Fifth-Tier Speaker
+
+Choose three of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Adroit Cypher Use|ability {}]]]
+
+ * [[[Discipline of Watchfulness|ability {}]]]
+
+ * [[[Experienced in Armor|ability {}]]]
+
+ * [[[Flee|ability {}]]]
+
+ * [[[Foul Aura|ability {}]]]
+
+ * [[[Knowing the Unknown|ability {}]]]
+
+ * [[[Regeneration|ability {}]]]
+
+ * [[[Skill With Attacks|ability {}]]]
+
+ * [[[Stimulate|ability {}]]]
+
+Sixth-Tier Speaker
+
+Choose two of the abilities listed below (or from a lower tier) to add to your repertoire. In addition, you can replace one of your lower-tier abilities with a different one from a lower tier.
+
+ * [[[Assume Control|ability {}]]]
+
+ * [[[Battle Management|ability {}]]]
+
+ * [[[Crowd Control|ability {}]]]
+
+ * [[[Inspiring Success|ability {}]]]
+
+ * [[[Recruit Deputy|ability {}]]]
+
+ * [[[Shatter Mind|ability {}]]]
+
+ * [[[True Senses|ability {}]]]
+
+ * [[[Word of Command|ability {}]]]

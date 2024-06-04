@@ -1,0 +1,310 @@
+First-Tier Stealth Abilities
+
+ * [[[Danger Sense|ability {}]]]
+
+ * [[[Goad|ability {}]]]
+
+ * [[[Legerdemain|ability {}]]]
+
+ * [[[Opportunist|ability {}]]]
+
+ * [[[Stealth Skills|ability {}]]]
+
+Second-Tier Stealth Abilities
+
+ * [[[Contortionist|ability {}]]]
+
+ * [[[Find an Opening|ability {}]]]
+
+ * [[[Get Away|ability {}]]]
+
+ * [[[Sense Ambush|ability {}]]]
+
+ * [[[Surprise Attack|ability {}]]]
+
+Third-Tier Stealth Abilities
+
+ * [[[Evanesce|ability {}]]]
+
+ * [[[From the Shadows|ability {}]]]
+
+ * [[[Gambler|ability {}]]]
+
+ * [[[Inner Defense|ability {}]]]
+
+ * [[[Misdirect|ability {}]]]
+
+ * [[[Run and Fight|ability {}]]]
+
+ * [[[Seize the Moment|ability {}]]]
+
+Fourth-Tier Stealth Abilities
+
+ * [[[Ambusher|ability {}]]]
+
+ * [[[Debilitating Strike|ability {}]]]
+
+ * [[[Outwit|ability {}]]]
+
+ * [[[Preternatural Senses|ability {}]]]
+
+ * [[[Tumbling Moves|ability {}]]]
+
+Fifth-Tier Stealth Abilities
+
+ * [[[Assassin Strike|ability {}]]]
+
+ * [[[Mask|ability {}]]]
+
+ * [[[Return to Sender|ability {}]]]
+
+ * [[[Uncanny Luck|ability {}]]]
+
+Sixth-Tier Stealth Abilities
+
+ * [[[Exploit Advantage|ability {}]]]
+
+ * [[[Spring Away|ability {}]]]
+
+ * [[[Thief’s Luck|ability {}]]]
+
+ * [[[Twist of Fate|ability {}]]]
+
+First-Tier Technology Abilities
+
+ * [[[Datajack|ability {}]]]
+
+ * [[[Hacker|ability {}]]]
+
+ * [[[Machine Interface|ability {}]]]
+
+ * [[[Scramble Machine|ability {}]]]
+
+ * [[[Tech Skills|ability {}]]]
+
+ * [[[Tinker|ability {}]]]
+
+Second-Tier Technology Abilities
+
+ * [[[Distant Interface|ability {}]]]
+
+ * [[[Machine Efficiency|ability {}]]]
+
+ * [[[Overload Machine|ability {}]]]
+
+ * [[[Serv-0|ability {}]]]
+
+ * [[[Serv-0 Defender|ability {}]]]
+
+ * [[[Serv-0 Repair|ability {}]]]
+
+ * [[[Tool Mastery|ability {}]]]
+
+Third-Tier Technology Abilities
+
+ * [[[Mechanical Telepathy|ability {}]]]
+
+ * [[[Serv-0 Scanner|ability {}]]]
+
+ * [[[Ship Footing|ability {}]]]
+
+ * [[[Shipspeak|ability {}]]]
+
+ * [[[Spray|ability {}]]]
+
+Fourth-Tier Technology Abilities
+
+ * [[[Machine Bond|ability {}]]]
+
+ * [[[Robot Fighter|ability {}]]]
+
+ * [[[Serv-0 Aim|ability {}]]]
+
+ * [[[Serv-0 Brawler|ability {}]]]
+
+ * [[[Serv-0 Spy|ability {}]]]
+
+Fifth-Tier Technology Abilities
+
+ * [[[Control Machine|ability {}]]]
+
+ * [[[Jury-Rig|ability {}]]]
+
+ * [[[Machine Companion|ability {}]]]
+
+Sixth-Tier Technology Abilities
+
+ * [[[Information Gathering|ability {}]]]
+
+ * [[[Master Machine|ability {}]]]
+
+First-Tier Magic Abilities
+
+ * [[[Blessing of the Gods|ability {}]]]
+
+ * [[[Closed Mind|ability {}]]]
+
+ * [[[Entangling Force|ability {}]]]
+
+ * [[[Hedge Magic|ability {}]]]
+
+ * [[[Magic Training|ability {}]]]
+
+ * [[[Mental Link|ability {}]]]
+
+ * [[[Premonition|ability {}]]]
+
+Second-Tier Magic Abilities
+
+ * [[[Concussive Blast|ability {}]]]
+
+ * [[[Fetch|ability {}]]]
+
+ * [[[Force Field|ability {}]]]
+
+ * [[[Lock|ability {}]]]
+
+ * [[[Repair Flesh|ability {}]]]
+
+Third-Tier Magic Abilities
+
+ * [[[Distance Viewing|ability {}]]]
+
+ * [[[Fire Bloom|ability {}]]]
+
+ * [[[Fling|ability {}]]]
+
+ * [[[Force at Distance|ability {}]]]
+
+ * [[[Summon Giant Spider|ability {}]]]
+
+Fourth-Tier Magic Abilities
+
+ * [[[Elemental Protection|ability {}]]]
+
+ * [[[Ignition|ability {}]]]
+
+ * [[[Pry Open|ability {}]]]
+
+Fifth-Tier Magic Abilities
+
+ * [[[Create|ability {}]]]
+
+ * [[[Divine Intervention|ability {}]]]
+
+ * [[[Dragon’s Maw|ability {}]]]
+
+ * [[[Fast Travel|ability {}]]]
+
+ * [[[True Senses|ability {}]]]
+
+Sixth-Tier Magic Abilities
+
+ * [[[Relocate|ability {}]]]
+
+ * [[[Summon Demon|ability {}]]]
+
+ * [[[Traverse the Worlds|ability {}]]]
+
+ * [[[Word of Death|ability {}]]]
+
+First-Tier Combat Abilities
+
+ * [[[Danger Sense|ability {}]]]
+
+ * [[[Practiced in Armor|ability {}]]]
+
+ * [[[Practiced With Medium Weapons|ability {}]]]
+
+Second-Tier Combat Abilities
+
+ * [[[Bloodlust|ability {}]]]
+
+ * [[[Combat Prowess|ability {}]]]
+
+ * [[[Trained Without Armor|ability {}]]]
+
+Third-Tier Combat Abilities
+
+ * [[[Practiced With All Weapons|ability {}]]]
+
+ * [[[Skill With Attacks|ability {}]]]
+
+ * [[[Skill With Defense|ability {}]]]
+
+ * [[[Successive Attack|ability {}]]]
+
+Fourth-Tier Combat Abilities
+
+ * [[[Capable Warrior|ability {}]]]
+
+ * [[[Deadly Aim|ability {}]]]
+
+ * [[[Fury|ability {}]]]
+
+ * [[[Misdirect|ability {}]]]
+
+ * [[[Spray|ability {}]]]
+
+Fifth-Tier Combat Abilities
+
+ * [[[Experienced Defender|ability {}]]]
+
+ * [[[Hard Target|ability {}]]]
+
+ * [[[Parry|ability {}]]]
+
+Sixth-Tier Combat Abilities
+
+ * [[[Greater Skill With Attacks|ability {}]]]
+
+ * [[[Mastery in Armor|ability {}]]]
+
+ * [[[Mastery With Defense|ability {}]]]
+
+First-Tier Skills and Knowledge Abilities
+
+ * [[[Interaction Skills|ability {}]]]
+
+ * [[[Investigative Skills|ability {}]]]
+
+ * [[[Knowledge Skills|ability {}]]]
+
+ * [[[Physical Skills|ability {}]]]
+
+ * [[[Travel Skills|ability {}]]]
+
+Second-Tier Skills and Knowledge Abilities
+
+ * [[[Extra Skill|ability {}]]]
+
+ * [[[Tool Mastery|ability {}]]]
+
+ * [[[Understanding|ability {}]]]
+
+Third-Tier Skills and Knowledge Abilities
+
+ * [[[Flex Skill|ability {}]]]
+
+ * [[[Improvise|ability {}]]]
+
+Fourth-Tier Skills and Knowledge Abilities
+
+ * [[[Multiple Skills|ability {}]]]
+
+ * [[[Quick Wits|ability {}]]]
+
+ * [[[Task Specialization|ability {}]]]
+
+Fifth-Tier Skills and Knowledge Abilities
+
+ * [[[Practiced With Medium Weapons|ability {}]]]
+
+ * [[[Read the Signs|ability {}]]]
+
+Sixth-Tier Skills and Knowledge Abilities
+
+ * [[[Skill With Attacks|ability {}]]]
+
+ * [[[Skill With Defense|ability {}]]]
+
