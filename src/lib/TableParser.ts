@@ -1,7 +1,6 @@
-import RollTableVisitor from './parser/RollTableVisitor';
+import RollTableVisitor from './parser/RollTableVisitor.js';
 import {
 	BlockPossibilityTextContext,
-	ParentheticalContext,
 	PossibilityContext,
 	QuotedTextContext,
 	RollPossibilityContext,
@@ -18,9 +17,9 @@ import { string } from 'mathjs';
 import { runAST } from './TableRunner.js';
 import { DiceParser } from './DiceParser.js';
 
-export type AST = string | PossibilitiesAST | RollTableAST | QuotedText;
+export type AST = string | QuotedText | PossibilitiesAST | RollTableAST;
 
-export type RollTableAST = (string | QuotedText | PossibilitiesAST)[];
+export type RollTableAST = (string | PossibilitiesAST | QuotedText)[];
 
 export type PossibilitiesAST = {
 	roll?: string;
@@ -28,12 +27,12 @@ export type PossibilitiesAST = {
 		parenthetical?: string;
 		text: RollTableAST;
 	}[];
+	block?: true;
 };
 
 export type QuotedText = {
-	quoted: string;
+	quoted: RollTableAST;
 };
-
 export class CustomVisitor extends RollTableVisitor<AST> {
 	/**
 	 * Visit a parse tree produced by `RollTableParser.prog`.
@@ -97,15 +96,16 @@ export class CustomVisitor extends RollTableVisitor<AST> {
 					out.possibilities.push({
 						text: []
 					});
-				} else if (child instanceof ParentheticalContext) {
-					out.possibilities[out.possibilities.length - 1].parenthetical =
-						this.visitParenthetical(child);
 				} else if (text === ':') {
 					out.roll = out.possibilities[out.possibilities.length - 1].text.pop() as string;
 				} else if (child instanceof RollPossibilityTextContext) {
-					out.possibilities[out.possibilities.length - 1].text.push(
-						...this.visitRollPossibilityText(child)
-					);
+					let [parenthetical, text] = extractParenthetical(this.visitRollPossibilityText(child));
+
+					if (parenthetical) {
+						out.possibilities[out.possibilities.length - 1].parenthetical = parenthetical;
+					}
+
+					out.possibilities[out.possibilities.length - 1].text.push(...text);
 				}
 			}
 		}
@@ -146,15 +146,16 @@ export class CustomVisitor extends RollTableVisitor<AST> {
 							text: []
 						});
 					}
-				} else if (child instanceof ParentheticalContext) {
-					out.possibilities[out.possibilities.length - 1].parenthetical =
-						this.visitParenthetical(child);
 				} else if (text === ':') {
 					out.roll = out.possibilities[out.possibilities.length - 1].text.pop() as string;
 				} else if (child instanceof BlockPossibilityTextContext) {
-					out.possibilities[out.possibilities.length - 1].text.push(
-						...this.visitBlockPossibilityText(child)
-					);
+					let [parenthetical, text] = extractParenthetical(this.visitBlockPossibilityText(child));
+
+					if (parenthetical) {
+						out.possibilities[out.possibilities.length - 1].parenthetical = parenthetical;
+					}
+
+					out.possibilities[out.possibilities.length - 1].text.push(...text);
 				}
 			}
 		}
@@ -163,31 +164,10 @@ export class CustomVisitor extends RollTableVisitor<AST> {
 			out.possibilities.pop();
 		}
 
+		out.block = true;
+
 		// TODO: Should make sure last \n isn't deleted
-
 		return out;
-	};
-	/**
-	 * Visit a parse tree produced by `RollTableParser.parenthetical`.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	visitParenthetical: (ctx: ParentheticalContext) => string = (ctx) => {
-		let out = '';
-
-		if (!ctx.children) {
-			return out;
-		}
-
-		for (const child of ctx.children) {
-			let text = child.getText();
-
-			if (text) {
-				out += mapEscapedChars(text);
-			}
-		}
-
-		return out.substring(1, out.length - 1);
 	};
 	/**
 	 * Visit a parse tree produced by `RollTableParser.text`.
@@ -277,25 +257,29 @@ export class CustomVisitor extends RollTableVisitor<AST> {
 	 * @return the visitor result
 	 */
 	visitQuotedText: (ctx: QuotedTextContext) => QuotedText = (ctx) => {
-		let out = '';
+		let out: RollTableAST = [''];
 
 		if (!ctx.children) {
-			return {
-				quoted: out
-			};
+			return { quoted: out };
 		}
 
 		for (const child of ctx.children) {
-			let text = child.getText();
+			if (child instanceof RollPossibilityContext) {
+				out.push(this.visitRollPossibility(child));
+			} else {
+				let text = child.getText();
 
-			if (text) {
-				out += mapEscapedChars(text);
+				if (text) {
+					if (typeof out[out.length - 1] === 'string') {
+						addToRollTable(out, mapEscapedChars(text));
+					} else {
+						out.push(mapEscapedChars(text));
+					}
+				}
 			}
 		}
 
-		return {
-			quoted: out.substring(1, out.length - 1)
-		} as QuotedText;
+		return { quoted: out };
 	};
 }
 
@@ -311,6 +295,8 @@ function addToRollTable(
 		}
 	} else if (Array.isArray(input)) {
 		rollTable.push(...input);
+	} else if ('quoted' in input) {
+		rollTable.push(input);
 	} else {
 		rollTable.push(input);
 	}
@@ -326,16 +312,12 @@ function mapEscapedChars(text: string) {
 			return '}';
 		case '\\-':
 			return '-';
-		case '\\"':
-			return '"';
 		case '\\|':
 			return '|';
 		case '\\:':
 			return ':';
-		case '\\(':
-			return '(';
-		case '\\)':
-			return ')';
+		case '\\"':
+			return '"';
 		case '\\n':
 			return '\n';
 		case '\\\n':
@@ -345,37 +327,59 @@ function mapEscapedChars(text: string) {
 	}
 }
 
-// const input = readTextFile('test.txt');
+function extractParenthetical(text: RollTableAST): [string | null, RollTableAST] {
+	let fst = text[0];
 
-// const chars = new CharStream(`Hello { world | friends }.
-// This is \\{ how you write | a roll \\}.
+	if (typeof fst !== 'string') {
+		return [null, text];
+	}
 
-// ---
-// (50%) A strong warrior.
+	let match = fst.match(/^\s*\((.*)\)(.*)$/s);
 
-// (25%) A mighty fighter.\
-// He is tall.
+	if (match) {
+		return [match[1], [match[2], ...text.slice(1)]];
+	}
 
-// (25%) A { blue | " \\"red\\" \\n red " } mage.
-// ---
+	return [null, text];
+}
 
-// You { (2) need to go.
-// 	| (1) need to stay{ , now | }.
-// }
+const chars = new CharStream(`Hello { world | friends }.
+This is \\{ how you write | a roll \\}.
 
-// ---
-// d6:
-// (<3) You're right.
-// (3-4) You're wrong. No: I am.
-// (>=5) "You're evil.
-// Yes."
-// ---`);
-// const lexer = new RollTableLexer(chars);
-// /// @ts-ignore
-// const tokens = new CommonTokenStream(lexer);
-// /// @ts-ignore
-// const parser = new RollTableParser(tokens);
-// const tree = parser.prog();
+---
+(50%) A strong warrior.
 
-// const visitor = new CustomVisitor();
-// export const ast = visitor.visit(tree);
+(25%) A mighty fighter.\
+He is tall.
+
+(25%) A { blue | " \\"red\\" \\n red " } mage.
+---
+
+You { (2) need to go.
+	| (1) need to stay{ , now | }.
+}
+
+---
+d6:
+(<3) You're right.
+(3-4) You're wrong. No: I am.
+(>=5) "You're evil.
+{ Yes. | No! }"
+
+{ Another | "Test
+ Test { test | test }" }
+---`);
+const lexer = new RollTableLexer(chars);
+/// @ts-ignore
+const tokens = new CommonTokenStream(lexer);
+/// @ts-ignore
+const parser = new RollTableParser(tokens);
+const tree = parser.prog();
+
+console.log(tree);
+
+const visitor = new CustomVisitor();
+export const ast = visitor.visit(tree);
+
+console.log(ast);
+console.log(JSON.stringify(ast, null, 2));

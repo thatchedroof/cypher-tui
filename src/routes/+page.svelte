@@ -1,10 +1,11 @@
 <script lang="ts">
+	import { data } from '$lib/store';
 	import { TUI } from '$lib/TUI.js';
 	import { onMount, tick } from 'svelte';
 	import { Svrollbar } from 'svrollbar';
 	import VirtualList from 'svelte-tiny-virtual-list';
 	import sanitizeHtml from 'sanitize-html';
-	import { e } from 'mathjs';
+	import TextEdit from '$lib/TextEdit.svelte';
 
 	let tui = new TUI();
 	// console.log(prevText);
@@ -156,16 +157,29 @@
 	}
 
 	onMount(async () => {
+		// setTimeout(() => {
+		// 	tui.editFilePath = 'test.txt';
+		// 	tui.editContent = 'Hello, world!';
+		// 	tui.editMode = true;
+		// }, 5000);
 		await tui.init();
 
 		inputFocus();
 
 		document.addEventListener('keydown', async (event) => {
+			if ($data.editMode) {
+				return;
+			}
+
 			if (document.activeElement !== input) {
 				inputFocus();
 			}
 
 			if (event.key === 'Enter') {
+				if (event.shiftKey) {
+					return;
+				}
+
 				event.preventDefault();
 
 				let command = inputText || '';
@@ -222,36 +236,37 @@
 	});
 </script>
 
-<div class="background">
-	<div class="wrapper">
-		<div bind:this={viewport} class="viewport" use:scrollToBottom={outputText}>
-			<div bind:this={contents} class="contents">
-				{#each historyText as htext}
-					<div class="item">
-						<div class="text history">{@html show(htext)}</div>
-					</div>
-				{/each}
-				<div id="output" class="output text">{@html show(outputText)}</div>
+{#if $data.editMode === true}
+	<TextEdit {tui} />
+{:else}
+	<div class="background">
+		<div class="wrapper no-scroll" use:scrollToBottom={outputText}>
+			{#each historyText as htext}
+				<div class="item">
+					<div class="text history">{@html show(htext)}</div>
+				</div>
+			{/each}
+			<div id="output" class="output text">{@html show(outputText)}</div>
+			<div class="extra text"><br /><br /></div>
+			<!-- <Svrollbar {viewport} {contents} margin={{ top: 10, buttom: 10 }} /> -->
+		</div>
+
+		<div class="input-and-output">
+			<div class="input-line">
+				<span class="text prevent-select">&gt;&nbsp;</span>
+				<span
+					class="text"
+					id="input"
+					bind:this={input}
+					on:click={(e) => e.stopPropagation()}
+					bind:textContent={inputText}
+					contenteditable
+				/>
+				<span class="autocomplete text">{autocomplete}</span>
 			</div>
 		</div>
-		<Svrollbar {viewport} {contents} margin={{ top: 10, buttom: 10 }} />
 	</div>
-
-	<div class="input-and-output" on:click={inputFocus}>
-		<div class="input-line">
-			<span class="text prevent-select">&gt;&nbsp;</span>
-			<span
-				class="text"
-				id="input"
-				bind:this={input}
-				on:click={(e) => e.stopPropagation()}
-				bind:textContent={inputText}
-				contenteditable
-			/>
-			<span class="autocomplete text">{autocomplete}</span>
-		</div>
-	</div>
-</div>
+{/if}
 
 <style>
 	:global(body) {
@@ -270,6 +285,8 @@
 
 	.history {
 		white-space: pre;
+		text-wrap: wrap;
+		width: calc(100% - 2em);
 	}
 
 	.input-and-output {
@@ -277,7 +294,6 @@
 		width: 100%;
 		bottom: 0;
 
-		/* And if you want the div to be full-width: */
 		left: 0;
 		right: 0;
 
@@ -285,7 +301,12 @@
 
 		background: rgba(20, 20, 20, 0.5);
 
-		backdrop-filter: blur(6px);
+		--blur-radius: 8px;
+
+		backdrop-filter: blur(var(--blur-radius));
+		-webkit-backdrop-filter: blur(var(--blur-radius));
+
+		position: fixed;
 	}
 
 	input {
@@ -300,12 +321,6 @@
 	.autocomplete {
 		pointer-events: none;
 		opacity: 0.5;
-	}
-
-	.prevent-select {
-		-webkit-user-select: none;
-		-ms-user-select: none;
-		user-select: none;
 	}
 
 	.wrapper {
@@ -324,6 +339,22 @@
 		width: 100vw;
 
 		grid-row-start: 1;
+
+		overflow-y: scroll;
+
+		padding: 1em;
+
+		text-wrap: wrap;
+	}
+
+	.no-scroll {
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
+
+	.no-scroll::-webkit-scrollbar {
+		/* hide scrollbar */
+		display: none;
 	}
 
 	.viewport {
@@ -348,35 +379,6 @@
 		/* hide scrollbar */
 		display: none;
 	}
-
-	.background {
-		/* overflow-y: scroll; */
-		position: relative;
-		width: 100vw;
-		height: 100vh;
-		font-size: 24px;
-
-		background: radial-gradient(50% 50% at 50% 50%, #101e0f 0%, #0b1909 61.5%, #070f06 100%);
-
-		display: grid;
-		grid-template-rows: 1fr auto;
-	}
-
-	.text {
-		font-family: 'Fixedsys Excelsior';
-		font-style: normal;
-		font-weight: 400;
-		font-size: 24px;
-		line-height: 24px;
-		white-space: pre-line;
-		text-wrap: wrap;
-
-		color: #10cd00;
-		/* color: #87ad84; */
-
-		text-shadow: 0px 0px 4.2px rgba(20, 255, 0, 0.48);
-	}
-
 	.input-line {
 		display: flex;
 		justify-content: flex-start;
@@ -387,21 +389,6 @@
 		outline: none;
 
 		text-wrap: wrap;
-	}
-
-	::selection {
-		background-color: #10cd00;
-		color: #101e0f;
-	}
-
-	::-webkit-selection {
-		background-color: #10cd00;
-		color: #101e0f;
-	}
-
-	::-moz-selection {
-		background-color: #10cd00;
-		color: #101e0f;
 	}
 
 	.blink {

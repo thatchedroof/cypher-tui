@@ -7,7 +7,6 @@ import { ProgContext } from "./RollTableParser";
 import { PossibilityContext } from "./RollTableParser";
 import { RollPossibilityContext } from "./RollTableParser";
 import { BlockPossibilityContext } from "./RollTableParser";
-import { ParentheticalContext } from "./RollTableParser";
 import { TextContext } from "./RollTableParser";
 import { RollPossibilityTextContext } from "./RollTableParser";
 import { BlockPossibilityTextContext } from "./RollTableParser";
@@ -59,16 +58,6 @@ export default class RollTableListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	exitBlockPossibility?: (ctx: BlockPossibilityContext) => void;
-	/**
-	 * Enter a parse tree produced by `RollTableParser.parenthetical`.
-	 * @param ctx the parse tree
-	 */
-	enterParenthetical?: (ctx: ParentheticalContext) => void;
-	/**
-	 * Exit a parse tree produced by `RollTableParser.parenthetical`.
-	 * @param ctx the parse tree
-	 */
-	exitParenthetical?: (ctx: ParentheticalContext) => void;
 	/**
 	 * Enter a parse tree produced by `RollTableParser.text`.
 	 * @param ctx the parse tree

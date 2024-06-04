@@ -1,0 +1,47 @@
+.text {
+	font-family: 'Fixedsys Excelsior';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 24px;
+	white-space: pre-line;
+	text-wrap: wrap;
+
+	color: #10cd00;
+	/* color: #87ad84; */
+
+	text-shadow: 0px 0px 4.2px rgba(20, 255, 0, 0.48);
+}
+
+.prevent-select {
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.background {
+	/* overflow-y: scroll; */
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	font-size: 24px;
+
+	background: radial-gradient(50% 50% at 50% 50%, #101e0f 0%, #0b1909 61.5%, #070f06 100%);
+
+	display: grid;
+	grid-template-rows: 1fr auto;
+}
+
+::selection {
+	background-color: #10cd00;
+	color: #101e0f;
+}
+
+::-webkit-selection {
+	background-color: #10cd00;
+	color: #101e0f;
+}
+
+::-moz-selection {
+	background-color: #10cd00;
+	color: #101e0f;
+}

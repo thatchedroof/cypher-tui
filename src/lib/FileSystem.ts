@@ -12,6 +12,14 @@ export class FileSystem {
 		}
 	}
 
+	async exists(file: string) {
+		if (!this.path) {
+			this.init();
+		}
+
+		return exists(`${this.path}\\${file}`);
+	}
+
 	async read(file: string) {
 		if (!this.path) {
 			this.init();
@@ -26,6 +34,14 @@ export class FileSystem {
 		}
 
 		return writeTextFile(`${this.path}\\${file}`, contents);
+	}
+
+	async createFile(file: string) {
+		if (!this.path) {
+			this.init();
+		}
+
+		return writeTextFile(`${this.path}\\${file}`, '');
 	}
 
 	async listFiles(inputPath?: string) {
